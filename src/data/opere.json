@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "slug": "opera-1",
+    "title": {
+      "it": "Titolo Opera 1",
+      "en": "Artwork Title 1",
+      "fr": "Titre de l'Œuvre 1",
+      "es": "Título de la Obra 1",
+      "de": "Titel des Werks 1"
+    },
+    "artist": "Nome Artista",
+    "year": "1542",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 1 in italiano...",
+      "en": "Detailed description of artwork 1 in English...",
+      "fr": "Description détaillée de l'œuvre 1 en français...",
+      "es": "Descripción detallada de la obra 1 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 1 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-1.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-1-it.mp3",
+      "en": "/assets/audio/opera-1-en.mp3",
+      "fr": "/assets/audio/opera-1-fr.mp3",
+      "es": "/assets/audio/opera-1-es.mp3",
+      "de": "/assets/audio/opera-1-de.mp3"
+    },
+    "video": "/assets/video/opera-1.mp4"
+  },
+  {
+    "id": 2,
+    "slug": "opera-2",
+    "title": {
+      "it": "Titolo Opera 2",
+      "en": "Artwork Title 2",
+      "fr": "Titre de l'Œuvre 2",
+      "es": "Título de la Obra 2",
+      "de": "Titel des Werks 2"
+    },
+    "artist": "Nome Artista",
+    "year": "1550",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 2 in italiano...",
+      "en": "Detailed description of artwork 2 in English...",
+      "fr": "Description détaillée de l'œuvre 2 en français...",
+      "es": "Descripción detallada de la obra 2 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 2 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-2.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-2-it.mp3",
+      "en": "/assets/audio/opera-2-en.mp3",
+      "fr": "/assets/audio/opera-2-fr.mp3",
+      "es": "/assets/audio/opera-2-es.mp3",
+      "de": "/assets/audio/opera-2-de.mp3"
+    },
+    "video": "/assets/video/opera-2.mp4"
+  },
+  {
+    "id": 3,
+    "slug": "opera-3",
+    "title": {
+      "it": "Titolo Opera 3",
+      "en": "Artwork Title 3",
+      "fr": "Titre de l'Œuvre 3",
+      "es": "Título de la Obra 3",
+      "de": "Titel des Werks 3"
+    },
+    "artist": "Nome Artista",
+    "year": "1558",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 3 in italiano...",
+      "en": "Detailed description of artwork 3 in English...",
+      "fr": "Description détaillée de l'œuvre 3 en français...",
+      "es": "Descripción detallada de la obra 3 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 3 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-3.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-3-it.mp3",
+      "en": "/assets/audio/opera-3-en.mp3",
+      "fr": "/assets/audio/opera-3-fr.mp3",
+      "es": "/assets/audio/opera-3-es.mp3",
+      "de": "/assets/audio/opera-3-de.mp3"
+    },
+    "video": "/assets/video/opera-3.mp4"
+  },
+  {
+    "id": 4,
+    "slug": "opera-4",
+    "title": {
+      "it": "Titolo Opera 4",
+      "en": "Artwork Title 4",
+      "fr": "Titre de l'Œuvre 4",
+      "es": "Título de la Obra 4",
+      "de": "Titel des Werks 4"
+    },
+    "artist": "Nome Artista",
+    "year": "1560",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 4 in italiano...",
+      "en": "Detailed description of artwork 4 in English...",
+      "fr": "Description détaillée de l'œuvre 4 en français...",
+      "es": "Descripción detallada de la obra 4 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 4 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-4.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-4-it.mp3",
+      "en": "/assets/audio/opera-4-en.mp3",
+      "fr": "/assets/audio/opera-4-fr.mp3",
+      "es": "/assets/audio/opera-4-es.mp3",
+      "de": "/assets/audio/opera-4-de.mp3"
+    },
+    "video": "/assets/video/opera-4.mp4"
+  },
+  {
+    "id": 5,
+    "slug": "opera-5",
+    "title": {
+      "it": "Titolo Opera 5",
+      "en": "Artwork Title 5",
+      "fr": "Titre de l'Œuvre 5",
+      "es": "Título de la Obra 5",
+      "de": "Titel des Werks 5"
+    },
+    "artist": "Nome Artista",
+    "year": "1565",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 5 in italiano...",
+      "en": "Detailed description of artwork 5 in English...",
+      "fr": "Description détaillée de l'œuvre 5 en français...",
+      "es": "Descripción detallada de la obra 5 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 5 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-5.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-5-it.mp3",
+      "en": "/assets/audio/opera-5-en.mp3",
+      "fr": "/assets/audio/opera-5-fr.mp3",
+      "es": "/assets/audio/opera-5-es.mp3",
+      "de": "/assets/audio/opera-5-de.mp3"
+    },
+    "video": "/assets/video/opera-5.mp4"
+  },
+  {
+    "id": 6,
+    "slug": "opera-6",
+    "title": {
+      "it": "Titolo Opera 6",
+      "en": "Artwork Title 6",
+      "fr": "Titre de l'Œuvre 6",
+      "es": "Título de la Obra 6",
+      "de": "Titel des Werks 6"
+    },
+    "artist": "Nome Artista",
+    "year": "1570",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 6 in italiano...",
+      "en": "Detailed description of artwork 6 in English...",
+      "fr": "Description détaillée de l'œuvre 6 en français...",
+      "es": "Descripción detallada de la obra 6 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 6 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-6.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-6-it.mp3",
+      "en": "/assets/audio/opera-6-en.mp3",
+      "fr": "/assets/audio/opera-6-fr.mp3",
+      "es": "/assets/audio/opera-6-es.mp3",
+      "de": "/assets/audio/opera-6-de.mp3"
+    },
+    "video": "/assets/video/opera-6.mp4"
+  },
+  {
+    "id": 7,
+    "slug": "opera-7",
+    "title": {
+      "it": "Titolo Opera 7",
+      "en": "Artwork Title 7",
+      "fr": "Titre de l'Œuvre 7",
+      "es": "Título de la Obra 7",
+      "de": "Titel des Werks 7"
+    },
+    "artist": "Nome Artista",
+    "year": "1575",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 7 in italiano...",
+      "en": "Detailed description of artwork 7 in English...",
+      "fr": "Description détaillée de l'œuvre 7 en français...",
+      "es": "Descripción detallada de la obra 7 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 7 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-7.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-7-it.mp3",
+      "en": "/assets/audio/opera-7-en.mp3",
+      "fr": "/assets/audio/opera-7-fr.mp3",
+      "es": "/assets/audio/opera-7-es.mp3",
+      "de": "/assets/audio/opera-7-de.mp3"
+    },
+    "video": "/assets/video/opera-7.mp4"
+  },
+  {
+    "id": 8,
+    "slug": "opera-8",
+    "title": {
+      "it": "Titolo Opera 8",
+      "en": "Artwork Title 8",
+      "fr": "Titre de l'Œuvre 8",
+      "es": "Título de la Obra 8",
+      "de": "Titel des Werks 8"
+    },
+    "artist": "Nome Artista",
+    "year": "1580",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 8 in italiano...",
+      "en": "Detailed description of artwork 8 in English...",
+      "fr": "Description détaillée de l'œuvre 8 en français...",
+      "es": "Descripción detallada de la obra 8 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 8 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-8.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-8-it.mp3",
+      "en": "/assets/audio/opera-8-en.mp3",
+      "fr": "/assets/audio/opera-8-fr.mp3",
+      "es": "/assets/audio/opera-8-es.mp3",
+      "de": "/assets/audio/opera-8-de.mp3"
+    },
+    "video": "/assets/video/opera-8.mp4"
+  },
+  {
+    "id": 9,
+    "slug": "opera-9",
+    "title": {
+      "it": "Titolo Opera 9",
+      "en": "Artwork Title 9",
+      "fr": "Titre de l'Œuvre 9",
+      "es": "Título de la Obra 9",
+      "de": "Titel des Werks 9"
+    },
+    "artist": "Nome Artista",
+    "year": "1585",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 9 in italiano...",
+      "en": "Detailed description of artwork 9 in English...",
+      "fr": "Description détaillée de l'œuvre 9 en français...",
+      "es": "Descripción detallada de la obra 9 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 9 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-9.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-9-it.mp3",
+      "en": "/assets/audio/opera-9-en.mp3",
+      "fr": "/assets/audio/opera-9-fr.mp3",
+      "es": "/assets/audio/opera-9-es.mp3",
+      "de": "/assets/audio/opera-9-de.mp3"
+    },
+    "video": "/assets/video/opera-9.mp4"
+  },
+  {
+    "id": 10,
+    "slug": "opera-10",
+    "title": {
+      "it": "Titolo Opera 10",
+      "en": "Artwork Title 10",
+      "fr": "Titre de l'Œuvre 10",
+      "es": "Título de la Obra 10",
+      "de": "Titel des Werks 10"
+    },
+    "artist": "Nome Artista",
+    "year": "1590",
+    "description": {
+      "it": "Descrizione dettagliata dell'opera 10 in italiano...",
+      "en": "Detailed description of artwork 10 in English...",
+      "fr": "Description détaillée de l'œuvre 10 en français...",
+      "es": "Descripción detallada de la obra 10 en español...",
+      "de": "Detaillierte Beschreibung des Kunstwerks 10 auf Deutsch..."
+    },
+    "image": "/assets/images/opera-10.jpg",
+    "audio": {
+      "it": "/assets/audio/opera-10-it.mp3",
+      "en": "/assets/audio/opera-10-en.mp3",
+      "fr": "/assets/audio/opera-10-fr.mp3",
+      "es": "/assets/audio/opera-10-es.mp3",
+      "de": "/assets/audio/opera-10-de.mp3"
+    },
+    "video": "/assets/video/opera-10.mp4"
+  }
+]
