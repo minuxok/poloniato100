@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next'
 
 const LANGUAGES = [
-  { code: 'it', flag: '🇮🇹', label: 'Italiano' },
-  { code: 'en', flag: '🇬🇧', label: 'English' },
-  { code: 'fr', flag: '🇫🇷', label: 'Français' },
-  { code: 'es', flag: '🇪🇸', label: 'Español' },
-  { code: 'de', flag: '🇩🇪', label: 'Deutsch' },
+  { code: 'it', iso: 'IT', label: 'Italiano' },
+  { code: 'en', iso: 'EN', label: 'English' },
+  { code: 'fr', iso: 'FR', label: 'Français' },
+  { code: 'es', iso: 'ES', label: 'Español' },
+  { code: 'de', iso: 'DE', label: 'Deutsch' },
 ]
 
 function Header() {
@@ -20,7 +20,7 @@ function Header() {
     <header className="app-header">
       <span className="app-header__title">{t('home_title')}</span>
       <nav className="app-header__langs" aria-label={t('choose_lang')}>
-        {LANGUAGES.map(({ code, flag, label }) => (
+        {LANGUAGES.map(({ code, iso, label }) => (
           <button
             key={code}
             type="button"
@@ -31,7 +31,7 @@ function Header() {
             aria-label={label}
             aria-pressed={i18n.resolvedLanguage === code}
           >
-            {flag}
+            {iso}
           </button>
         ))}
       </nav>

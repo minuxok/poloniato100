@@ -13,8 +13,13 @@ function Home() {
         {opere.map((opera) => {
           const title = opera.title[i18n.resolvedLanguage] ?? opera.title.it
           return (
-            <li key={opera.id}>
-              <Link to={`/opera/${opera.id}`}>{title}</Link>
+            <li key={opera.id} className="home__list-item">
+              <Link to={`/opera/${opera.id}`} className="home__list-link">
+                <span>{title}</span>
+                <span className="home__list-arrow" aria-hidden="true">
+                  &rarr;
+                </span>
+              </Link>
             </li>
           )
         })}

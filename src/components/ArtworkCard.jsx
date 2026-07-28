@@ -8,24 +8,30 @@ function ArtworkCard({ opera }) {
 
   return (
     <article className="artwork-card">
-      <img
-        className="artwork-card__image"
-        src={opera.image}
-        alt={opera.title[lang]}
-      />
-      <h1 className="artwork-card__title">{opera.title[lang]}</h1>
-      <p className="artwork-card__meta">
-        {opera.artist} &mdash; {opera.year}
-      </p>
+      <div className="artwork-card__media-container">
+        <img
+          className="artwork-card__image"
+          src={opera.image}
+          alt={opera.title[lang]}
+        />
+      </div>
+      <header className="artwork-card__header">
+        <h2 className="artwork-card__title">{opera.title[lang]}</h2>
+        <span className="artwork-card__meta">
+          {opera.artist} • {opera.year}
+        </span>
+      </header>
       <p className="artwork-card__description">{opera.description[lang]}</p>
       <AudioPlayer src={opera.audio?.[lang]} />
       {videoSrc && (
-        <video
-          className="artwork-card__video"
-          controls
-          preload="none"
-          src={videoSrc}
-        />
+        <div className="artwork-card__video-container">
+          <video
+            className="artwork-card__video"
+            controls
+            preload="none"
+            src={videoSrc}
+          />
+        </div>
       )}
     </article>
   )

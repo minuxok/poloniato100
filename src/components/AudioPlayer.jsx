@@ -7,7 +7,12 @@ function AudioPlayer({ src }) {
 
   return (
     <div className="audio-player">
-      <p className="audio-player__label">{t('play_audio')}</p>
+      <div className="audio-player__header">
+        <span className="audio-player__badge" aria-hidden="true">
+          🎧
+        </span>
+        <p className="audio-player__label">{t('play_audio')}</p>
+      </div>
       <audio controls preload="none" src={src}>
         {t('audio_unsupported')}
       </audio>
