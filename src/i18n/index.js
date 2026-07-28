@@ -13,6 +13,12 @@ const resources = {
         "Avvicina lo smartphone al tag NFC accanto a un'opera per scoprirne la storia.",
       not_found: 'Opera non trovata.',
       back_home: 'Tutte le opere',
+      nfc_activate: 'Attiva la lettura dei cartellini',
+      nfc_scanning: 'Avvicina il telefono al cartellino',
+      nfc_unsupported: "Avvicina il telefono al cartellino dell'opera: si aprirà da solo.",
+      nfc_denied:
+        'Lettura NFC non consentita. Abilitala dalle impostazioni del browser oppure inquadra il QR sul cartellino.',
+      nfc_error: 'Lettura non riuscita. Riprova ad avvicinare il telefono.',
     },
   },
   en: {
@@ -25,6 +31,12 @@ const resources = {
         'Tap your phone on the NFC tag next to an artwork to discover its story.',
       not_found: 'Artwork not found.',
       back_home: 'All artworks',
+      nfc_activate: 'Turn on label reading',
+      nfc_scanning: 'Hold your phone near the label',
+      nfc_unsupported: 'Hold your phone near the label: the work will open by itself.',
+      nfc_denied:
+        'NFC reading is blocked. Allow it in your browser settings, or scan the QR code on the label.',
+      nfc_error: 'Reading failed. Try holding your phone closer.',
     },
   },
   fr: {
@@ -37,6 +49,12 @@ const resources = {
         "Approchez votre téléphone du tag NFC à côté d'une œuvre pour découvrir son histoire.",
       not_found: 'Œuvre introuvable.',
       back_home: 'Toutes les œuvres',
+      nfc_activate: 'Activer la lecture des cartels',
+      nfc_scanning: 'Approchez le téléphone du cartel',
+      nfc_unsupported: "Approchez le téléphone du cartel : l'œuvre s'ouvrira toute seule.",
+      nfc_denied:
+        'Lecture NFC bloquée. Autorisez-la dans les réglages du navigateur ou scannez le QR du cartel.',
+      nfc_error: 'Lecture échouée. Réessayez en approchant le téléphone.',
     },
   },
   es: {
@@ -49,6 +67,12 @@ const resources = {
         'Acerca tu teléfono a la etiqueta NFC junto a una obra para descubrir su historia.',
       not_found: 'Obra no encontrada.',
       back_home: 'Todas las obras',
+      nfc_activate: 'Activar la lectura de etiquetas',
+      nfc_scanning: 'Acerca el teléfono a la etiqueta',
+      nfc_unsupported: 'Acerca el teléfono a la etiqueta de la obra: se abrirá sola.',
+      nfc_denied:
+        'Lectura NFC no permitida. Actívala en la configuración del navegador o escanea el código QR de la etiqueta.',
+      nfc_error: 'Lectura fallida. Vuelve a acercar el teléfono.',
     },
   },
   de: {
@@ -61,6 +85,12 @@ const resources = {
         'Halten Sie Ihr Smartphone an den NFC-Tag neben einem Kunstwerk, um seine Geschichte zu entdecken.',
       not_found: 'Kunstwerk nicht gefunden.',
       back_home: 'Alle Kunstwerke',
+      nfc_activate: 'Schilderlesung einschalten',
+      nfc_scanning: 'Halten Sie das Telefon an das Schild',
+      nfc_unsupported: 'Halten Sie das Telefon an das Schild: das Werk öffnet sich von selbst.',
+      nfc_denied:
+        'NFC-Lesung ist blockiert. Erlauben Sie sie in den Browsereinstellungen oder scannen Sie den QR-Code.',
+      nfc_error: 'Lesen fehlgeschlagen. Bitte erneut versuchen.',
     },
   },
 }
@@ -73,8 +103,9 @@ i18n
     fallbackLng: 'it',
     supportedLngs: ['it', 'en', 'fr', 'es', 'de'],
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['querystring', 'localStorage', 'navigator'],
       caches: ['localStorage'],
+      lookupQuerystring: 'lang',
       lookupLocalStorage: 'i18nextLng',
     },
     interpolation: {
