@@ -1,22 +1,23 @@
 [
   {
     "id": 1,
-    "slug": "opera-1",
+    "slug": "san-giorgio-e-il-drago",
     "title": {
-      "it": "Titolo Opera 1",
-      "en": "Artwork Title 1",
-      "fr": "Titre de l'Œuvre 1",
-      "es": "Título de la Obra 1",
-      "de": "Titel des Werks 1"
+      "it": "San Giorgio e il Drago",
+      "en": "Saint George and the Dragon",
+      "fr": "Saint Georges et le Dragon",
+      "es": "San Jorge y el Dragón",
+      "de": "St. Georg und der Drache"
     },
-    "artist": "Nome Artista",
-    "year": "1542",
+    "artist": "Domenico Poloniato",
+    "details": "pannello in semi-refrattario, 90x70cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 1 in italiano...",
-      "en": "Detailed description of artwork 1 in English...",
-      "fr": "Description détaillée de l'œuvre 1 en français...",
-      "es": "Descripción detallada de la obra 1 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 1 auf Deutsch..."
+      "it": "Pannello in semi-refrattario (90x70cm). Opera di soggetto sacro a forte carica espressiva, parte della selezione dell'artista Domenico Poloniato per l'esposizione omaggio nel centenario della nascita.",
+      "en": "Semi-refractory panel (90x70cm). Sacred subject work with strong expressive power by Domenico Poloniato.",
+      "fr": "Panneau semi-réfractaire (90x70cm). Œuvre à sujet sacré à forte charge expressive par Domenico Poloniato.",
+      "es": "Panel en semi-refractario (90x70cm). Obra de tema sacro con fuerte carga expresiva de Domenico Poloniato.",
+      "de": "Semi-refraktäres Paneel (90x70cm). Sakrales Werk mit starker Ausdruckskraft von Domenico Poloniato."
     },
     "image": "/assets/images/opera-1.jpg",
     "audio": {
@@ -30,22 +31,23 @@
   },
   {
     "id": 2,
-    "slug": "opera-2",
+    "slug": "madonna-con-bambino",
     "title": {
-      "it": "Titolo Opera 2",
-      "en": "Artwork Title 2",
-      "fr": "Titre de l'Œuvre 2",
-      "es": "Título de la Obra 2",
-      "de": "Titel des Werks 2"
+      "it": "Madonna con Bambino",
+      "en": "Madonna and Child",
+      "fr": "Vierge à l'Enfant",
+      "es": "Virgen con el Niño",
+      "de": "Madonna mit Kind"
     },
-    "artist": "Nome Artista",
-    "year": "1550",
+    "artist": "Domenico Poloniato",
+    "details": "scultura in semi-refrattario, h. 80cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 2 in italiano...",
-      "en": "Detailed description of artwork 2 in English...",
-      "fr": "Description détaillée de l'œuvre 2 en français...",
-      "es": "Descripción detallada de la obra 2 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 2 auf Deutsch..."
+      "it": "Scultura in semi-refrattario (altezza 80cm). Elegante figura sacra che testimonia la sensibilità plastica e il profondo legame dell'artista novese con la tradizione sacra locale.",
+      "en": "Semi-refractory sculpture (height 80cm). Elegant sacred figure showcasing Domenico Poloniato's sculptural sensitivity.",
+      "fr": "Sculpture semi-réfractaire (hauteur 80cm). Élégante figure sacrée témoignant de la sensibilité plastique de l'artiste.",
+      "es": "Escultura en semi-refractario (altura 80cm). Elegante figura sagrada que testimonia la sensibilidad plástica del artista.",
+      "de": "Semi-refraktäre Skulptur (Höhe 80cm). Elegante sakrale Figur, die die plastische Sensibilität des Künstlers zeigt."
     },
     "image": "/assets/images/opera-2.jpg",
     "audio": {
@@ -59,22 +61,23 @@
   },
   {
     "id": 3,
-    "slug": "opera-3",
+    "slug": "nativita",
     "title": {
-      "it": "Titolo Opera 3",
-      "en": "Artwork Title 3",
-      "fr": "Titre de l'Œuvre 3",
-      "es": "Título de la Obra 3",
-      "de": "Titel des Werks 3"
+      "it": "Natività",
+      "en": "Nativity",
+      "fr": "Nativité",
+      "es": "Natividad",
+      "de": "Geburt Christi"
     },
-    "artist": "Nome Artista",
-    "year": "1558",
+    "artist": "Domenico Poloniato",
+    "details": "gruppo scultoreo in semi-refrattario, 50x60cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 3 in italiano...",
-      "en": "Detailed description of artwork 3 in English...",
-      "fr": "Description détaillée de l'œuvre 3 en français...",
-      "es": "Descripción detallada de la obra 3 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 3 auf Deutsch..."
+      "it": "Gruppo scultoreo in semi-refrattario (50x60cm). Scena sacra ricca di pathos e maestria modellistica, caratteristica della produzione di Domenico Poloniato.",
+      "en": "Semi-refractory sculptural group (50x60cm). Sacred scene rich in pathos and modeling expertise.",
+      "fr": "Groupe sculptural semi-réfractaire (50x60cm). Scène sacrée riche en pathos et maîtrise du modelage.",
+      "es": "Grupo escultórico en semi-refractario (50x60cm). Escena sagrada rica en emoción y maestría.",
+      "de": "Semi-refraktäre Skulpturengruppe (50x60cm). Sakrale Szene voller Pathos und Modellierkunst."
     },
     "image": "/assets/images/opera-3.jpg",
     "audio": {
@@ -88,22 +91,23 @@
   },
   {
     "id": 4,
-    "slug": "opera-4",
+    "slug": "presepio-1",
     "title": {
-      "it": "Titolo Opera 4",
-      "en": "Artwork Title 4",
-      "fr": "Titre de l'Œuvre 4",
-      "es": "Título de la Obra 4",
-      "de": "Titel des Werks 4"
+      "it": "Presepio (80x40cm)",
+      "en": "Nativity Scene (80x40cm)",
+      "fr": "Crèche (80x40cm)",
+      "es": "Pesebre (80x40cm)",
+      "de": "Krippe (80x40cm)"
     },
-    "artist": "Nome Artista",
-    "year": "1560",
+    "artist": "Domenico Poloniato",
+    "details": "gruppo scultoreo in semi-refrattario, 80x40cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 4 in italiano...",
-      "en": "Detailed description of artwork 4 in English...",
-      "fr": "Description détaillée de l'œuvre 4 en français...",
-      "es": "Descripción detallada de la obra 4 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 4 auf Deutsch..."
+      "it": "Gruppo scultoreo in semi-refrattario (80x40cm). Rappresentazione tridimensionale del presepe che fonde tradizione popolare ceramica e ricerca formale.",
+      "en": "Semi-refractory sculptural group (80x40cm). Three-dimensional nativity scene blending ceramic tradition and formal research.",
+      "fr": "Groupe sculptural semi-réfractaire (80x40cm). Représentation de la crèche alliant tradition céramique et recherche formelle.",
+      "es": "Grupo escultórico en semi-refractario (80x40cm). Representación del pesebre que combina tradición y maestría.",
+      "de": "Semi-refraktäre Skulpturengruppe (80x40cm). Dreidimensionale Krippendarstellung voller Details."
     },
     "image": "/assets/images/opera-4.jpg",
     "audio": {
@@ -117,22 +121,23 @@
   },
   {
     "id": 5,
-    "slug": "opera-5",
+    "slug": "presepio-2",
     "title": {
-      "it": "Titolo Opera 5",
-      "en": "Artwork Title 5",
-      "fr": "Titre de l'Œuvre 5",
-      "es": "Título de la Obra 5",
-      "de": "Titel des Werks 5"
+      "it": "Presepio (50x40cm)",
+      "en": "Nativity Scene (50x40cm)",
+      "fr": "Crèche (50x40cm)",
+      "es": "Pesebre (50x40cm)",
+      "de": "Krippe (50x40cm)"
     },
-    "artist": "Nome Artista",
-    "year": "1565",
+    "artist": "Domenico Poloniato",
+    "details": "gruppo scultoreo in semi-refrattario, 50x40cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 5 in italiano...",
-      "en": "Detailed description of artwork 5 in English...",
-      "fr": "Description détaillée de l'œuvre 5 en français...",
-      "es": "Descripción detallada de la obra 5 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 5 auf Deutsch..."
+      "it": "Gruppo scultoreo in semi-refrattario (50x40cm). Interpretazione intima e suggestiva del tema della Natività nella ceramica di Nove.",
+      "en": "Semi-refractory sculptural group (50x40cm). Intimate interpretation of the Nativity theme.",
+      "fr": "Groupe sculptural semi-réfractaire (50x40cm). Interpretation intime du thème de la Nativité.",
+      "es": "Grupo escultórico en semi-refractario (50x40cm). Interpretación íntima del tema de la Natividad.",
+      "de": "Semi-refraktäre Skulpturengruppe (50x40cm). Intime Interpretation des Krippenthemas."
     },
     "image": "/assets/images/opera-5.jpg",
     "audio": {
@@ -146,22 +151,23 @@
   },
   {
     "id": 6,
-    "slug": "opera-6",
+    "slug": "re-magi",
     "title": {
-      "it": "Titolo Opera 6",
-      "en": "Artwork Title 6",
-      "fr": "Titre de l'Œuvre 6",
-      "es": "Título de la Obra 6",
-      "de": "Titel des Werks 6"
+      "it": "Re Magi",
+      "en": "The Three Kings",
+      "fr": "Les Rois Mages",
+      "es": "Los Reyes Magos",
+      "de": "Die Heiligen Drei Könige"
     },
-    "artist": "Nome Artista",
-    "year": "1570",
+    "artist": "Domenico Poloniato",
+    "details": "sculture in semi-refrattario, altezze h. 30, 40, 45cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 6 in italiano...",
-      "en": "Detailed description of artwork 6 in English...",
-      "fr": "Description détaillée de l'œuvre 6 en français...",
-      "es": "Descripción detallada de la obra 6 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 6 auf Deutsch..."
+      "it": "Sculture in semi-refrattario con altezze diverse (h. 30, 40, 45cm). Trittico scultoreo raffigurante i Re Magi con raffinati dettagli decorativi plastici.",
+      "en": "Semi-refractory sculptures of varying heights (h. 30, 40, 45cm). Triptych of the Three Magi.",
+      "fr": "Sculptures semi-réfractaires de différentes hauteurs (h. 30, 40, 45cm). Triptyque des Rois Mages.",
+      "es": "Esculturas en semi-refractario de distintas alturas (h. 30, 40, 45cm). Tríptico escultórico de los Reyes Magos.",
+      "de": "Semi-refraktäre Skulpturen in verschiedenen Höhen (h. 30, 40, 45cm). Triptychon der Heiligen Drei Könige."
     },
     "image": "/assets/images/opera-6.jpg",
     "audio": {
@@ -175,22 +181,23 @@
   },
   {
     "id": 7,
-    "slug": "opera-7",
+    "slug": "deposizione-1",
     "title": {
-      "it": "Titolo Opera 7",
-      "en": "Artwork Title 7",
-      "fr": "Titre de l'Œuvre 7",
-      "es": "Título de la Obra 7",
-      "de": "Titel des Werks 7"
+      "it": "Deposizione (Pannello A)",
+      "en": "Deposition (Panel A)",
+      "fr": "Déposition (Panneau A)",
+      "es": "Deposición (Panel A)",
+      "de": "Kreuzabnahme (Paneel A)"
     },
-    "artist": "Nome Artista",
-    "year": "1575",
+    "artist": "Domenico Poloniato",
+    "details": "pannello in semi-refrattario, 100x40cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 7 in italiano...",
-      "en": "Detailed description of artwork 7 in English...",
-      "fr": "Description détaillée de l'œuvre 7 en français...",
-      "es": "Descripción detallada de la obra 7 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 7 auf Deutsch..."
+      "it": "Pannello in semi-refrattario (100x40cm). Opera monumentale di soggetto passionale caratterizzata da un'intensa drammaticità e padronanza del bassorilievo.",
+      "en": "Semi-refractory panel (100x40cm). Monumental bas-relief of the Deposition.",
+      "fr": "Panneau semi-réfractaire (100x40cm). Œuvre monumentale représentant la Déposition.",
+      "es": "Panel en semi-refractario (100x40cm). Obra monumental que representa la Deposición.",
+      "de": "Semi-refraktäres Paneel (100x40cm). Monumentales Relief der Kreuzabnahme."
     },
     "image": "/assets/images/opera-7.jpg",
     "audio": {
@@ -204,22 +211,23 @@
   },
   {
     "id": 8,
-    "slug": "opera-8",
+    "slug": "deposizione-2",
     "title": {
-      "it": "Titolo Opera 8",
-      "en": "Artwork Title 8",
-      "fr": "Titre de l'Œuvre 8",
-      "es": "Título de la Obra 8",
-      "de": "Titel des Werks 8"
+      "it": "Deposizione (Pannello B)",
+      "en": "Deposition (Panel B)",
+      "fr": "Déposition (Panneau B)",
+      "es": "Deposición (Panel B)",
+      "de": "Kreuzabnahme (Paneel B)"
     },
-    "artist": "Nome Artista",
-    "year": "1580",
+    "artist": "Domenico Poloniato",
+    "details": "pannello in semi-refrattario, 100x40cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 8 in italiano...",
-      "en": "Detailed description of artwork 8 in English...",
-      "fr": "Description détaillée de l'œuvre 8 en français...",
-      "es": "Descripción detallada de la obra 8 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 8 auf Deutsch..."
+      "it": "Pannello in semi-refrattario (100x40cm). Seconda variante del tema della Deposizione, caratterizzata da estrema sensibilità narrativa nei gesti e nei volti.",
+      "en": "Semi-refractory panel (100x40cm). Second variation of the Deposition theme.",
+      "fr": "Panneau semi-réfractaire (100x40cm). Seconde variante du thème de la Déposition.",
+      "es": "Panel en semi-refractario (100x40cm). Segunda variante del tema de la Deposición.",
+      "de": "Semi-refraktäres Paneel (100x40cm). Zweite Variante des Kreuzabnahme-Themas."
     },
     "image": "/assets/images/opera-8.jpg",
     "audio": {
@@ -233,22 +241,23 @@
   },
   {
     "id": 9,
-    "slug": "opera-9",
+    "slug": "pieta",
     "title": {
-      "it": "Titolo Opera 9",
-      "en": "Artwork Title 9",
-      "fr": "Titre de l'Œuvre 9",
-      "es": "Título de la Obra 9",
-      "de": "Titel des Werks 9"
+      "it": "Pietà",
+      "en": "Pietà",
+      "fr": "Pietà",
+      "es": "Piedad",
+      "de": "Pietà"
     },
-    "artist": "Nome Artista",
-    "year": "1585",
+    "artist": "Domenico Poloniato",
+    "details": "gruppo scultoreo in semi-refrattario, 50x40cm",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 9 in italiano...",
-      "en": "Detailed description of artwork 9 in English...",
-      "fr": "Description détaillée de l'œuvre 9 en français...",
-      "es": "Descripción detallada de la obra 9 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 9 auf Deutsch..."
+      "it": "Gruppo scultoreo in semi-refrattario (50x40cm). Scultura sacra di straordinaria intensità emotiva che restituisce con precisione il dolore e il raccoglimento della Vergine.",
+      "en": "Semi-refractory sculptural group (50x40cm). Sacred sculpture of extraordinary emotional intensity.",
+      "fr": "Groupe sculptural semi-réfractaire (50x40cm). Sculpture sacrée d'une intensité émotionnelle remarquable.",
+      "es": "Grupo escultórico en semi-refractario (50x40cm). Escultura sagrada de gran intensidad emotiva.",
+      "de": "Semi-refraktäre Skulpturengruppe (50x40cm). Sakrale Skulptur von außergewöhnlicher emotionaler Tiefe."
     },
     "image": "/assets/images/opera-9.jpg",
     "audio": {
@@ -262,22 +271,23 @@
   },
   {
     "id": 10,
-    "slug": "opera-10",
+    "slug": "risurrezione",
     "title": {
-      "it": "Titolo Opera 10",
-      "en": "Artwork Title 10",
-      "fr": "Titre de l'Œuvre 10",
-      "es": "Título de la Obra 10",
-      "de": "Titel des Werks 10"
+      "it": "Risurrezione",
+      "en": "Resurrection",
+      "fr": "Résurrection",
+      "es": "Resurrección",
+      "de": "Auferstehung"
     },
-    "artist": "Nome Artista",
-    "year": "1590",
+    "artist": "Domenico Poloniato",
+    "details": "gruppo scultoreo in semi-refrattario, h. 40cm (Opera esposta al Museo Civico)",
+    "year": "1926-2013",
     "description": {
-      "it": "Descrizione dettagliata dell'opera 10 in italiano...",
-      "en": "Detailed description of artwork 10 in English...",
-      "fr": "Description détaillée de l'œuvre 10 en français...",
-      "es": "Descripción detallada de la obra 10 en español...",
-      "de": "Detaillierte Beschreibung des Kunstwerks 10 auf Deutsch..."
+      "it": "Gruppo scultoreo in semi-refrattario (h. 40cm). Opera esposta al Museo Civico di Nove. Rappresentazione trionfale e dinamica del Cristo risorto attorniato da figure monumentali.",
+      "en": "Semi-refractory sculptural group (h. 40cm). Exhibited at the Civic Museum. Dynamic and triumphant depiction of the Resurrected Christ.",
+      "fr": "Groupe sculptural semi-réfractaire (h. 40cm). Exposée au Musée Civique. Représentation triomphale et dynamique du Christ ressuscité.",
+      "es": "Grupo escultórico en semi-refractario (h. 40cm). Expuesta en el Museo Cívico. Representación triunfal del Cristo resucitado.",
+      "de": "Semi-refraktäre Skulpturengruppe (h. 40cm). Im Museo Civico ausgestellt. Dynamische Darstellung des auferstandenen Christus."
     },
     "image": "/assets/images/opera-10.jpg",
     "audio": {

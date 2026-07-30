@@ -1,26 +1,35 @@
 :root {
-  --text: #524f57;
-  --text-h: #17151c;
-  --bg: #fcfbf9;
+  /* Ceramic Terracotta & Cream Gallery Palette */
+  --terracotta: #7a432a;
+  --terracotta-dark: #5e321e;
+  --terracotta-light: #9e5b3b;
+  --terracotta-bg: rgba(122, 67, 42, 0.08);
+  --terracotta-border: rgba(122, 67, 42, 0.25);
+  
+  --bg: #faf7f2;
   --bg-card: #ffffff;
-  --border: #e6e4e0;
-  --code-bg: #f3f1ec;
-  --accent: #b45309;
-  --accent-bg: rgba(180, 83, 9, 0.08);
-  --accent-border: rgba(180, 83, 9, 0.35);
-  --social-bg: rgba(243, 241, 236, 0.6);
-  --shadow:
-    rgba(0, 0, 0, 0.06) 0 8px 24px -4px, rgba(0, 0, 0, 0.04) 0 2px 6px -1px;
+  --border: #e8e2d8;
+  --code-bg: #f3ede2;
+  
+  --text-h: #2c2523;
+  --text: #4a423f;
+  --text-muted: #736b67;
+  
+  --shadow: rgba(122, 67, 42, 0.08) 0 8px 24px -4px, rgba(0, 0, 0, 0.04) 0 2px 6px -1px;
 
-  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --heading: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --sans: 'Outfit', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Montserrat', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
 
-  font: 16px/150% var(--sans);
+  --accent: var(--terracotta);
+  --accent-bg: var(--terracotta-bg);
+  --accent-border: var(--terracotta-border);
+
+  font: 16px/155% var(--sans);
   letter-spacing: -0.01em;
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
-  background: #f4f3f0;
+  background: #f2ece4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -30,20 +39,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #121318;
-    --bg-card: #1a1b22;
-    --border: #2a2c36;
-    --code-bg: #1f212a;
-    --accent: #f59e0b;
-    --accent-bg: rgba(245, 158, 11, 0.12);
-    --accent-border: rgba(245, 158, 11, 0.4);
-    --social-bg: rgba(42, 44, 54, 0.6);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 25px -4px, rgba(0, 0, 0, 0.25) 0 4px 8px -2px;
+    --bg: #1c1715;
+    --bg-card: #26201d;
+    --border: #3d3430;
+    --code-bg: #2e2623;
+    --text-h: #f5efe9;
+    --text: #d4cac3;
+    --text-muted: #a39790;
+    --terracotta: #c67856;
+    --terracotta-dark: #a35d3d;
+    --terracotta-light: #e09270;
+    --terracotta-bg: rgba(198, 120, 86, 0.15);
+    --terracotta-border: rgba(198, 120, 86, 0.4);
+    --shadow: rgba(0, 0, 0, 0.4) 0 10px 25px -4px, rgba(0, 0, 0, 0.25) 0 4px 8px -2px;
 
-    background: #0b0c0f;
+    background: #14100e;
   }
 }
 
@@ -61,7 +71,7 @@ body {
 
 #root {
   width: 100%;
-  max-width: 540px;
+  max-width: 560px;
   margin: 0 auto;
   text-align: left;
   border-inline: 1px solid var(--border);
@@ -75,23 +85,29 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading);
-  font-weight: 600;
-  color: var(--text-h);
+  font-weight: 700;
+  color: var(--terracotta);
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   line-height: 1.25;
-  letter-spacing: -0.02em;
 }
 
 h2 {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 1.3;
-  letter-spacing: -0.015em;
+}
+
+h3 {
+  font-size: 1.05rem;
+  line-height: 1.35;
 }
 
 p {
@@ -103,17 +119,25 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
+/* Brochure Style Decorative Elements */
+.divider-bar {
+  height: 4px;
+  width: 100%;
+  max-width: 180px;
+  background-color: var(--terracotta);
   border-radius: 4px;
-  color: var(--text-h);
+  margin: 14px 0;
 }
 
-code {
-  font-size: 14px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.divider-bar--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.star-symbol {
+  display: inline-block;
+  color: var(--terracotta);
+  font-size: 1.4rem;
+  line-height: 1;
+  user-select: none;
 }
