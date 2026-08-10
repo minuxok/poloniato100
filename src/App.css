@@ -342,22 +342,30 @@
 
 .artwork-card__media-container {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 20px;
   overflow: hidden;
-  background: var(--code-bg);
+  background: radial-gradient(circle at center, #ffffff 25%, #f4ede3 100%);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   margin-bottom: 18px;
   position: relative;
+  padding: 20px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
 }
 
 .artwork-card__image {
   width: 100%;
   height: auto;
+  max-height: 380px;
   display: block;
-  object-fit: cover;
-  max-height: 400px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(94, 50, 30, 0.18));
+  transition: transform 0.3s ease;
 }
+
 
 .artwork-card__verify-badge {
   position: absolute;

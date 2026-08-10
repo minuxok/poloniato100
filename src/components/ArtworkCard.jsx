@@ -1,10 +1,22 @@
 import { useTranslation } from 'react-i18next'
 import AudioPlayer from './AudioPlayer'
 
+function resolveAssetUrl(path) {
+  if (!path) return ''
+  if (path.startsWith('http://') || path.startsWith('https://')) return path
+  const base = import.meta.env.BASE_URL || '/'
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path
+  const cleanBase = base.endsWith('/') ? base : `${base}/`
+  return `${cleanBase}${cleanPath}`
+}
+
 function ArtworkCard({ opera }) {
   const { i18n } = useTranslation()
   const lang = opera.title[i18n.resolvedLanguage] ? i18n.resolvedLanguage : 'it'
-  const videoSrc = typeof opera.video === 'string' ? opera.video : opera.video?.[lang]
+  const rawVideo = typeof opera.video === 'string' ? opera.video : opera.video?.[lang]
+  const videoSrc = resolveAssetUrl(rawVideo)
+  const imageSrc = resolveAssetUrl(opera.image)
+  const audioSrc = resolveAssetUrl(opera.audio?.[lang])
 
   return (
     <article className="artwork-card">
@@ -12,7 +24,7 @@ function ArtworkCard({ opera }) {
       <div className="artwork-card__media-container">
         <img
           className="artwork-card__image"
-          src={opera.image}
+          src={imageSrc}
           alt={opera.title[lang]}
           onError={(e) => {
             // Fallback placeholder image with artwork title if image file doesn't exist yet
@@ -48,7 +60,7 @@ function ArtworkCard({ opera }) {
       </div>
 
       {/* Audio Guide Player */}
-      <AudioPlayer src={opera.audio?.[lang]} />
+      <AudioPlayer src={audioSrc} />
 
       {/* Optional Video Guide */}
       {videoSrc && (

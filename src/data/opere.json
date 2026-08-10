@@ -19,7 +19,7 @@
       "es": "Panel en semi-refractario (90x70cm). Obra de tema sacro con fuerte carga expresiva de Domenico Poloniato.",
       "de": "Semi-refraktäres Paneel (90x70cm). Sakrales Werk mit starker Ausdruckskraft von Domenico Poloniato."
     },
-    "image": "/assets/images/opera-1.jpg",
+    "image": "/assets/images/san_giorgio.png",
     "audio": {
       "it": "/assets/audio/opera-1-it.mp3",
       "en": "/assets/audio/opera-1-en.mp3",
@@ -49,7 +49,7 @@
       "es": "Escultura en semi-refractario (altura 80cm). Elegante figura sagrada que testimonia la sensibilidad plástica del artista.",
       "de": "Semi-refraktäre Skulptur (Höhe 80cm). Elegante sakrale Figur, die die plastische Sensibilität des Künstlers zeigt."
     },
-    "image": "/assets/images/opera-2.jpg",
+    "image": "/assets/images/madonna_con_bambino.png",
     "audio": {
       "it": "/assets/audio/opera-2-it.mp3",
       "en": "/assets/audio/opera-2-en.mp3",
@@ -79,7 +79,7 @@
       "es": "Grupo escultórico en semi-refractario (50x60cm). Escena sagrada rica en emoción y maestría.",
       "de": "Semi-refraktäre Skulpturengruppe (50x60cm). Sakrale Szene voller Pathos und Modellierkunst."
     },
-    "image": "/assets/images/opera-3.jpg",
+    "image": "/assets/images/sposalizio_1.png",
     "audio": {
       "it": "/assets/audio/opera-3-it.mp3",
       "en": "/assets/audio/opera-3-en.mp3",
@@ -109,7 +109,7 @@
       "es": "Grupo escultórico en semi-refractario (80x40cm). Representación del pesebre que combina tradición y maestría.",
       "de": "Semi-refraktäre Skulpturengruppe (80x40cm). Dreidimensionale Krippendarstellung voller Details."
     },
-    "image": "/assets/images/opera-4.jpg",
+    "image": "/assets/images/presepe.png",
     "audio": {
       "it": "/assets/audio/opera-4-it.mp3",
       "en": "/assets/audio/opera-4-en.mp3",
@@ -139,7 +139,7 @@
       "es": "Grupo escultórico en semi-refractario (50x40cm). Interpretación íntima del tema de la Natividad.",
       "de": "Semi-refraktäre Skulpturengruppe (50x40cm). Intime Interpretation des Krippenthemas."
     },
-    "image": "/assets/images/opera-5.jpg",
+    "image": "/assets/images/presepe2.png",
     "audio": {
       "it": "/assets/audio/opera-5-it.mp3",
       "en": "/assets/audio/opera-5-en.mp3",
@@ -169,7 +169,7 @@
       "es": "Esculturas en semi-refractario de distintas alturas (h. 30, 40, 45cm). Tríptico escultórico de los Reyes Magos.",
       "de": "Semi-refraktäre Skulpturen in verschiedenen Höhen (h. 30, 40, 45cm). Triptychon der Heiligen Drei Könige."
     },
-    "image": "/assets/images/opera-6.jpg",
+    "image": "/assets/images/re_magio_1.png",
     "audio": {
       "it": "/assets/audio/opera-6-it.mp3",
       "en": "/assets/audio/opera-6-en.mp3",
@@ -199,7 +199,7 @@
       "es": "Panel en semi-refractario (100x40cm). Obra monumental que representa la Deposición.",
       "de": "Semi-refraktäres Paneel (100x40cm). Monumentales Relief der Kreuzabnahme."
     },
-    "image": "/assets/images/opera-7.jpg",
+    "image": "/assets/images/deposizione.png",
     "audio": {
       "it": "/assets/audio/opera-7-it.mp3",
       "en": "/assets/audio/opera-7-en.mp3",
@@ -229,7 +229,7 @@
       "es": "Panel en semi-refractario (100x40cm). Segunda variante del tema de la Deposición.",
       "de": "Semi-refraktäres Paneel (100x40cm). Zweite Variante des Kreuzabnahme-Themas."
     },
-    "image": "/assets/images/opera-8.jpg",
+    "image": "/assets/images/deposizione.png",
     "audio": {
       "it": "/assets/audio/opera-8-it.mp3",
       "en": "/assets/audio/opera-8-en.mp3",
@@ -259,7 +259,7 @@
       "es": "Grupo escultórico en semi-refractario (50x40cm). Escultura sagrada de gran intensidad emotiva.",
       "de": "Semi-refraktäre Skulpturengruppe (50x40cm). Sakrale Skulptur von außergewöhnlicher emotionaler Tiefe."
     },
-    "image": "/assets/images/opera-9.jpg",
+    "image": "/assets/images/pietà.png",
     "audio": {
       "it": "/assets/audio/opera-9-it.mp3",
       "en": "/assets/audio/opera-9-en.mp3",
@@ -289,7 +289,7 @@
       "es": "Grupo escultórico en semi-refractario (h. 40cm). Expuesta en el Museo Cívico. Representación triunfal del Cristo resucitado.",
       "de": "Semi-refraktäre Skulpturengruppe (h. 40cm). Im Museo Civico ausgestellt. Dynamische Darstellung des auferstandenen Christus."
     },
-    "image": "/assets/images/opera-10.jpg",
+    "image": "/assets/images/re_magi_2.png",
     "audio": {
       "it": "/assets/audio/opera-10-it.mp3",
       "en": "/assets/audio/opera-10-en.mp3",

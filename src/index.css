@@ -37,25 +37,6 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1c1715;
-    --bg-card: #26201d;
-    --border: #3d3430;
-    --code-bg: #2e2623;
-    --text-h: #f5efe9;
-    --text: #d4cac3;
-    --text-muted: #a39790;
-    --terracotta: #c67856;
-    --terracotta-dark: #a35d3d;
-    --terracotta-light: #e09270;
-    --terracotta-bg: rgba(198, 120, 86, 0.15);
-    --terracotta-border: rgba(198, 120, 86, 0.4);
-    --shadow: rgba(0, 0, 0, 0.4) 0 10px 25px -4px, rgba(0, 0, 0, 0.25) 0 4px 8px -2px;
-
-    background: #14100e;
-  }
-}
 
 * {
   box-sizing: border-box;
