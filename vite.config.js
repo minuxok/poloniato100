@@ -15,27 +15,47 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'icons.svg'],
+      includeAssets: ['favicon.svg', 'icons.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: "Mostra d'Arte NFC",
-        short_name: 'Mostra NFC',
+        name: 'Domenico Poloniato - Omaggio nel Centenario della Nascita',
+        short_name: 'Poloniato',
         description:
           'Guida multimediale multilingua per la mostra in chiesa, attivata tramite tag NFC',
         lang: 'it',
-        theme_color: '#16171d',
-        background_color: '#16171d',
+        theme_color: '#7a432a',
+        background_color: '#faf7f2',
         display: 'standalone',
-        start_url: '/',
+        start_url: '.',
+        scope: '.',
         icons: [
           {
-            src: '/favicon.svg',
+            src: 'favicon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
+          },
+          {
+            src: 'pwa-192.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: 'pwa-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: 'pwa-512-maskable.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
           },
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg}'],
+        globPatterns: ['**/*.{js,css,html,svg,png}'],
+        globIgnores: ['assets/images/**', 'assets/audio/**', 'assets/video/**'],
         runtimeCaching: [
           {
             urlPattern: /\/assets\/(images|audio|video)\/.*/,

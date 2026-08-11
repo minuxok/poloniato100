@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import LanguageModal from './components/LanguageModal'
 import NfcListener from './components/NfcListener'
+import PWAInstallPrompt from './components/PWAInstallPrompt'
 import Home from './pages/Home'
 import ArtworkDetail from './pages/ArtworkDetail'
 import i18n from './i18n'
@@ -41,6 +42,7 @@ function App() {
       </main>
       <NfcListener />
       {showLanguageModal && <LanguageModal onSelect={handleSelectLanguage} />}
+      <PWAInstallPrompt disabled={showLanguageModal} />
     </>
   )
 }

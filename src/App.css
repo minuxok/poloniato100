@@ -156,6 +156,56 @@
   border: 1px solid var(--border);
 }
 
+/* PWA Install Prompt */
+.install-prompt__panel {
+  max-width: 380px;
+}
+
+.install-prompt__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+
+.install-prompt__subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+.install-prompt__steps {
+  text-align: left;
+  margin: 16px 0 4px;
+  padding-left: 20px;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.install-prompt__steps li {
+  margin-bottom: 4px;
+}
+
+.install-prompt__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.install-prompt__later {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px;
+  cursor: pointer;
+}
+
 /* Home Page Brochure Layout */
 .home {
   padding: 20px 18px calc(95px + env(safe-area-inset-bottom, 0px));

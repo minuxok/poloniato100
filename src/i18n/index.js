@@ -28,7 +28,16 @@ const resources = {
       nfc_scanning: 'Avvicina il telefono al cartellino',
       nfc_unsupported: 'Avvicina il telefono al cartellino dell\'opera: si aprirà da solo.',
       nfc_denied: 'Lettura NFC non consentita. Abilitala dalle impostazioni del browser oppure inquadra il QR sul cartellino.',
-      nfc_error: 'Lettura non riuscita. Riprova ad avvicinare il telefono.'
+      nfc_error: 'Lettura non riuscita. Riprova ad avvicinare il telefono.',
+      pwa_install_title: 'Installa l\'app',
+      pwa_install_subtitle: 'Aggiungila alla schermata Home per un accesso rapido, anche senza connessione.',
+      pwa_install_btn: 'Installa',
+      pwa_install_later: 'Più tardi',
+      pwa_install_ios_subtitle: 'Aggiungila alla schermata Home in pochi passaggi:',
+      pwa_install_ios_step1: 'Tocca l\'icona Condividi nella barra di Safari',
+      pwa_install_ios_step2: 'Scegli "Aggiungi alla schermata Home"',
+      pwa_install_ios_step3: 'Conferma con "Aggiungi"',
+      pwa_install_ios_close: 'Ho capito'
     }
   },
   en: {
@@ -56,7 +65,16 @@ const resources = {
       nfc_scanning: 'Hold your phone near the label',
       nfc_unsupported: 'Hold your phone near the label: the work will open by itself.',
       nfc_denied: 'NFC reading is blocked. Allow it in your browser settings, or scan the QR code on the label.',
-      nfc_error: 'Reading failed. Try holding your phone closer.'
+      nfc_error: 'Reading failed. Try holding your phone closer.',
+      pwa_install_title: 'Install the app',
+      pwa_install_subtitle: 'Add it to your Home Screen for quick access, even offline.',
+      pwa_install_btn: 'Install',
+      pwa_install_later: 'Later',
+      pwa_install_ios_subtitle: 'Add it to your Home Screen in a few steps:',
+      pwa_install_ios_step1: 'Tap the Share icon in Safari\'s toolbar',
+      pwa_install_ios_step2: 'Choose "Add to Home Screen"',
+      pwa_install_ios_step3: 'Confirm with "Add"',
+      pwa_install_ios_close: 'Got it'
     }
   },
   fr: {
@@ -84,7 +102,16 @@ const resources = {
       nfc_scanning: 'Approchez le téléphone du cartel',
       nfc_unsupported: 'Approchez le téléphone du cartel : l\'œuvre s\'ouvrira toute seule.',
       nfc_denied: 'Lecture NFC bloquée. Autorisez-la dans les réglages du navigateur.',
-      nfc_error: 'Lecture échouée. Réessayez en approchant le téléphone.'
+      nfc_error: 'Lecture échouée. Réessayez en approchant le téléphone.',
+      pwa_install_title: 'Installer l\'application',
+      pwa_install_subtitle: 'Ajoutez-la à l\'écran d\'accueil pour un accès rapide, même hors ligne.',
+      pwa_install_btn: 'Installer',
+      pwa_install_later: 'Plus tard',
+      pwa_install_ios_subtitle: 'Ajoutez-la à l\'écran d\'accueil en quelques étapes :',
+      pwa_install_ios_step1: 'Touchez l\'icône Partager dans la barre de Safari',
+      pwa_install_ios_step2: 'Choisissez « Sur l\'écran d\'accueil »',
+      pwa_install_ios_step3: 'Confirmez avec « Ajouter »',
+      pwa_install_ios_close: 'Compris'
     }
   },
   es: {
@@ -112,7 +139,16 @@ const resources = {
       nfc_scanning: 'Acerca el teléfono a la etiqueta',
       nfc_unsupported: 'Acerca el teléfono a la etiqueta de la obra: se abrirá sola.',
       nfc_denied: 'Lectura NFC no permitida. Actívala en la configuración del navegador.',
-      nfc_error: 'Lectura fallida. Vuelve a acercar el teléfono.'
+      nfc_error: 'Lectura fallida. Vuelve a acercar el teléfono.',
+      pwa_install_title: 'Instalar la app',
+      pwa_install_subtitle: 'Añádela a la pantalla de inicio para un acceso rápido, incluso sin conexión.',
+      pwa_install_btn: 'Instalar',
+      pwa_install_later: 'Más tarde',
+      pwa_install_ios_subtitle: 'Añádela a la pantalla de inicio en pocos pasos:',
+      pwa_install_ios_step1: 'Toca el icono Compartir en la barra de Safari',
+      pwa_install_ios_step2: 'Elige "Añadir a pantalla de inicio"',
+      pwa_install_ios_step3: 'Confirma con "Añadir"',
+      pwa_install_ios_close: 'Entendido'
     }
   },
   de: {
@@ -140,7 +176,16 @@ const resources = {
       nfc_scanning: 'Halten Sie das Telefon an das Schild',
       nfc_unsupported: 'Halten Sie das Telefon an das Schild: das Werk öffnet sich von selbst.',
       nfc_denied: 'NFC-Lesung ist blockiert. Erlauben Sie sie in den Browsereinstellungen.',
-      nfc_error: 'Lesen fehlgeschlagen. Bitte erneut versuchen.'
+      nfc_error: 'Lesen fehlgeschlagen. Bitte erneut versuchen.',
+      pwa_install_title: 'App installieren',
+      pwa_install_subtitle: 'Zum Home-Bildschirm hinzufügen für schnellen Zugriff, auch offline.',
+      pwa_install_btn: 'Installieren',
+      pwa_install_later: 'Später',
+      pwa_install_ios_subtitle: 'In wenigen Schritten zum Home-Bildschirm hinzufügen:',
+      pwa_install_ios_step1: 'Tippen Sie auf das Teilen-Symbol in der Safari-Leiste',
+      pwa_install_ios_step2: 'Wählen Sie „Zum Home-Bildschirm“',
+      pwa_install_ios_step3: 'Bestätigen Sie mit „Hinzufügen“',
+      pwa_install_ios_close: 'Verstanden'
     }
   }
 }
