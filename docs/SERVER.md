@@ -3,7 +3,7 @@
 > **VPS:** `193.70.38.117` · Ubuntu · ISPConfig (stesso VPS del progetto Modello_Industriale_3D)
 > **Dominio:** `https://poloniato100.art`
 > **App:** `/opt/poloniato-2026` — build statica Vite, **nessun processo Node/PM2 a runtime**
-> **Document root Apache:** `/var/www/clients/client0/web27` (contenuto = build `dist/`, copiato via rsync)
+> **Document root Apache:** `/var/www/clients/client0/web27/web` (contenuto = build `dist/`, copiato via rsync con `sudo` — vedi sez. 4)
 > **Database:** nessuno (dati statici in `src/data/opere.json`)
 > **Accesso SSH:** Putty → `193.70.38.117` porta `22`, utente `ubuntu`
 > **Repo:** https://github.com/minuxok/poloniato100 — branch `dev` (attivo), `main` (baseline)
@@ -19,7 +19,7 @@ A differenza del progetto Modello_Industriale_3D (Next.js + PM2 + reverse proxy)
 **URL ISPConfig:** `https://193.70.38.117:8080`
 
 1. Crea un nuovo sito web per il dominio `poloniato100.art`.
-2. Annota il **document root** che ISPConfig assegna al sito — serve al passo 4. Per `poloniato100.art` è: `/var/www/clients/client0/web27`
+2. Annota il **document root** che ISPConfig assegna al sito — serve al passo 4. Per `poloniato100.art` il pannello mostra `/var/www/clients/client0/web27`, ma la cartella pubblica servita da Apache è la sottocartella **`web`** dentro quel percorso: `/var/www/clients/client0/web27/web`. Le altre sottocartelle (`ssl`, `log`, `tmp`, `private`, `.ssh`, `cgi-bin`, `backup`, `webdav`) sono gestite da ISPConfig e non vanno toccate.
 3. Tab **SSL** → abilita **Let's Encrypt** per HTTPS automatico.
 
 > ⚠️ HTTPS è obbligatorio: senza SSL attivo non funzionano né il Service Worker (PWA/offline), né l'installabilità dell'app, né — su Android — la Web NFC API.
@@ -52,10 +52,10 @@ Verifica che sia stata creata `/opt/poloniato-2026/dist/` con dentro `index.html
 
 ### 4. Pubblica la build nel document root del sito
 
-Copia il contenuto di `dist/` nel document root del sito:
+Copia il contenuto di `dist/` nel document root del sito. Serve `sudo`: la cartella è gestita da ISPConfig e l'utente `ubuntu` non ha diritti di scrittura diretti.
 
 ```bash
-rsync -a --delete /opt/poloniato-2026/dist/ /var/www/clients/client0/web27/
+sudo rsync -a --delete /opt/poloniato-2026/dist/ /var/www/clients/client0/web27/web/
 ```
 
 > Usa `rsync --delete` (non `cp`) così ogni deploy rimuove anche i file vecchi non più generati dal build (es. asset con hash cambiato).
@@ -87,7 +87,7 @@ cd /opt/poloniato-2026
 git pull origin main
 npm install
 npm run build
-rsync -a --delete dist/ /var/www/clients/client0/web27/
+sudo rsync -a --delete dist/ /var/www/clients/client0/web27/web/
 ```
 
 Nessun restart di processi necessario — sono file statici, Apache li serve subito. Il Service Worker (Workbox `autoUpdate`) si aggiorna da solo lato client al prossimo caricamento della pagina.
@@ -111,7 +111,7 @@ Se `curl` dà errore di connessione → controlla che Apache sia attivo (`sudo s
 |---|---|
 | `/opt/poloniato-2026/` | Sorgente del repo (git), usato solo per fare `npm run build` |
 | `/opt/poloniato-2026/dist/` | Output del build, **non è quello che serve Apache** — va copiato nel document root |
-| `/var/www/clients/client0/web27/` | Document root reale servito da Apache per `poloniato100.art` |
+| `/var/www/clients/client0/web27/web/` | Document root reale servito da Apache per `poloniato100.art` (richiede `sudo` per scriverci) |
 
 Nessun `.env` richiesto: il progetto usa dati statici (`src/data/opere.json`), non un database.
 
