@@ -28,8 +28,12 @@ function extractOperaId(raw) {
 
 /**
  * Barra persistente in fondo allo schermo.
- * Android: attiva la scansione Web NFC e cambia opera senza mai lasciare la pagina.
- * iOS/altri: spiega solo cosa fare, perché il tag apre l'URL da solo.
+ * Android: la Web NFC API richiede un gesto utente per attivarsi — invece
+ * di un pulsante dedicato (un passaggio in più, ingiustificato agli occhi
+ * del visitatore), agganciamo l'attivazione al primo tocco naturale sulla
+ * pagina. L'utente vede solo il popup nativo del browser, mai un nostro
+ * pulsante custom.
+ * iOS/altri: nessuna Web NFC disponibile, il tag apre l'URL da solo.
  */
 function NfcListener() {
   const navigate = useNavigate()
@@ -37,12 +41,6 @@ function NfcListener() {
   const [status, setStatus] = useState('idle')
   const navigateRef = useRef(navigate)
   navigateRef.current = navigate
-
-  useEffect(() => {
-    if (!('NDEFReader' in window)) {
-      setStatus('unsupported')
-    }
-  }, [])
 
   const start = useCallback(async () => {
     if (!('NDEFReader' in window)) {
@@ -74,6 +72,16 @@ function NfcListener() {
     }
   }, [])
 
+  useEffect(() => {
+    if (!('NDEFReader' in window)) {
+      setStatus('unsupported')
+      return
+    }
+    const arm = () => start()
+    document.addEventListener('pointerdown', arm, { once: true })
+    return () => document.removeEventListener('pointerdown', arm)
+  }, [start])
+
   const message =
     status === 'scanning'
       ? t('nfc_scanning')
@@ -85,16 +93,10 @@ function NfcListener() {
 
   return (
     <div className="nfcbar" role="status" aria-live="polite">
-      {status === 'idle' ? (
-        <button type="button" className="nfcbar__btn" onClick={start}>
-          {t('nfc_activate')}
-        </button>
-      ) : (
-        <p className="nfcbar__msg" data-state={status}>
-          <span className="nfcbar__pulse" aria-hidden="true" />
-          {message}
-        </p>
-      )}
+      <p className="nfcbar__msg" data-state={status}>
+        <span className="nfcbar__pulse" aria-hidden="true" />
+        {message}
+      </p>
     </div>
   )
 }
