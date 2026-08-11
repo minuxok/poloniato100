@@ -3,7 +3,7 @@
 > **VPS:** `193.70.38.117` · Ubuntu · ISPConfig (stesso VPS del progetto Modello_Industriale_3D)
 > **Dominio:** `https://poloniato100.art`
 > **App:** `/opt/poloniato-2026` — build statica Vite, **nessun processo Node/PM2 a runtime**
-> **Document root Apache:** cartella `dist/` generata dal build (percorso esatto da annotare qui dopo aver creato il sito in ISPConfig — vedi sez. 1)
+> **Document root Apache:** `/var/www/clients/client0/web27` (contenuto = build `dist/`, copiato via rsync)
 > **Database:** nessuno (dati statici in `src/data/opere.json`)
 > **Accesso SSH:** Putty → `193.70.38.117` porta `22`, utente `ubuntu`
 > **Repo:** https://github.com/minuxok/poloniato100 — branch `dev` (attivo), `main` (baseline)
@@ -19,7 +19,7 @@ A differenza del progetto Modello_Industriale_3D (Next.js + PM2 + reverse proxy)
 **URL ISPConfig:** `https://193.70.38.117:8080`
 
 1. Crea un nuovo sito web per il dominio `poloniato100.art`.
-2. Annota il **document root** che ISPConfig assegna di default (di solito qualcosa come `/var/www/clients/clientX/webY/web`) — serve al passo 4.
+2. Annota il **document root** che ISPConfig assegna al sito — serve al passo 4. Per `poloniato100.art` è: `/var/www/clients/client0/web27`
 3. Tab **SSL** → abilita **Let's Encrypt** per HTTPS automatico.
 
 > ⚠️ HTTPS è obbligatorio: senza SSL attivo non funzionano né il Service Worker (PWA/offline), né l'installabilità dell'app, né — su Android — la Web NFC API.
@@ -52,10 +52,10 @@ Verifica che sia stata creata `/opt/poloniato-2026/dist/` con dentro `index.html
 
 ### 4. Pubblica la build nel document root del sito
 
-Copia il contenuto di `dist/` nella cartella che ISPConfig ha assegnato al sito al passo 1 (sostituisci il percorso con quello reale annotato prima):
+Copia il contenuto di `dist/` nel document root del sito:
 
 ```bash
-rsync -a --delete /opt/poloniato-2026/dist/ /var/www/clients/clientX/webY/web/
+rsync -a --delete /opt/poloniato-2026/dist/ /var/www/clients/client0/web27/
 ```
 
 > Usa `rsync --delete` (non `cp`) così ogni deploy rimuove anche i file vecchi non più generati dal build (es. asset con hash cambiato).
@@ -87,7 +87,7 @@ cd /opt/poloniato-2026
 git pull origin main
 npm install
 npm run build
-rsync -a --delete dist/ /var/www/clients/clientX/webY/web/
+rsync -a --delete dist/ /var/www/clients/client0/web27/
 ```
 
 Nessun restart di processi necessario — sono file statici, Apache li serve subito. Il Service Worker (Workbox `autoUpdate`) si aggiorna da solo lato client al prossimo caricamento della pagina.
@@ -111,7 +111,7 @@ Se `curl` dà errore di connessione → controlla che Apache sia attivo (`sudo s
 |---|---|
 | `/opt/poloniato-2026/` | Sorgente del repo (git), usato solo per fare `npm run build` |
 | `/opt/poloniato-2026/dist/` | Output del build, **non è quello che serve Apache** — va copiato nel document root |
-| `/var/www/clients/clientX/webY/web/` | Document root reale servito da Apache (percorso da confermare in ISPConfig) |
+| `/var/www/clients/client0/web27/` | Document root reale servito da Apache per `poloniato100.art` |
 
 Nessun `.env` richiesto: il progetto usa dati statici (`src/data/opere.json`), non un database.
 
