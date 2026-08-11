@@ -3,12 +3,23 @@ import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
 
-// Estrae l'id opera da un URL scritto sul tag: .../opera/12 oppure ?id=12
+// Estrae l'id opera da un URL scritto sul tag: .../opera/12, ?id=12,
+// oppure .../#/opera/12 (formato reale con HashRouter).
 function extractOperaId(raw) {
   try {
     const url = new URL(raw, window.location.origin)
     const match = url.pathname.match(/\/opera\/(\d+)/)
     if (match) return match[1]
+    if (url.hash) {
+      const hashPath = url.hash.slice(1)
+      const hashMatch = hashPath.match(/\/opera\/(\d+)/)
+      if (hashMatch) return hashMatch[1]
+      const hashQuery = hashPath.split('?')[1]
+      if (hashQuery) {
+        const idFromHash = new URLSearchParams(hashQuery).get('id')
+        if (idFromHash) return idFromHash
+      }
+    }
     return url.searchParams.get('id')
   } catch {
     return /^\d+$/.test(raw.trim()) ? raw.trim() : null
