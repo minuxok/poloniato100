@@ -83,7 +83,7 @@ function NfcListener() {
   }, [start])
 
   const message =
-    status === 'scanning'
+    status === 'idle' || status === 'scanning'
       ? t('nfc_scanning')
       : status === 'denied'
         ? t('nfc_denied')
