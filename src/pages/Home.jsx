@@ -47,7 +47,6 @@ function Home() {
           return (
             <li key={opera.id} className="home__list-item">
               <Link to={`/opera/${opera.id}`} className="home__list-link">
-                <span className="home__list-num">{opera.id}.</span>
                 <div className="home__list-content">
                   <span className="home__list-title">{title}</span>
                   {opera.details && (

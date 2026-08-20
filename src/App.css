@@ -327,14 +327,6 @@
   text-decoration: none;
 }
 
-.home__list-num {
-  font-family: var(--heading);
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--terracotta);
-  min-width: 24px;
-}
-
 .home__list-content {
   display: flex;
   flex-direction: column;
@@ -416,25 +408,6 @@
   transition: transform 0.3s ease;
 }
 
-
-.artwork-card__verify-badge {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: rgba(44, 37, 35, 0.82);
-  color: #ffffff;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
 
 .artwork-card__header {
   margin-bottom: 14px;

@@ -34,9 +34,6 @@ function ArtworkCard({ opera }) {
             )}`
           }}
         />
-        <div className="artwork-card__verify-badge">
-          <span>✓</span> Opera #{opera.id}
-        </div>
       </div>
 
       {/* Header & Meta Info */}
