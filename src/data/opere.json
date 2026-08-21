@@ -1,5 +1,35 @@
 [
   {
+    "id": 0,
+    "slug": "introduzione",
+    "title": {
+      "it": "Introduzione",
+      "en": "Introduction",
+      "fr": "Introduction",
+      "es": "Introducción",
+      "de": "Einführung"
+    },
+    "artist": "",
+    "details": "",
+    "year": "",
+    "description": {
+      "it": "Caro visitatore, benvenuto alla mostra dedicata a Domenico Poloniato, nel centenario della nascita.\nTi trovi nella Chiesa Parrocchiale di Nove, dedicata ai Santi Pietro e Paolo.\nNoi volontari del gruppo \"I blanser del Museo\" abbiamo scelto questo luogo per farti scoprire la produzione del ceramista novese legata al tema del sacro.\nIl percorso ti permetterà di contestualizzare le opere di Poloniato e di scoprire altri tesori nascosti.\nSegui i cartoncini colorati che troverai ai lati degli altari.\nTi guideranno, passo dopo passo, in un cammino ideale tra arte e spiritualità.\nBuona visita.",
+      "en": "Dear visitor, welcome to the exhibition dedicated to Domenico Poloniato, on the centenary of his birth.\nYou are in the Parish Church of Nove, dedicated to Saints Peter and Paul.\nWe, the volunteers of the \"I Blanser del Museo\" group, chose this place to introduce you to the work of the Nove ceramicist on the theme of the sacred.\nThe tour will allow you to place Poloniato's works in context and to discover other hidden treasures.\nFollow the coloured cards you will find beside the altars.\nThey will guide you, step by step, on an ideal journey between art and spirituality.\nEnjoy your visit.",
+      "fr": "Cher visiteur, bienvenue à l'exposition dédiée à Domenico Poloniato, à l'occasion du centenaire de sa naissance.\nVous vous trouvez dans l'église paroissiale de Nove, dédiée aux Saints Pierre et Paul.\nNous, bénévoles du groupe « I Blanser del Museo », avons choisi ce lieu pour vous faire découvrir la production du céramiste de Nove liée au thème du sacré.\nLe parcours vous permettra de replacer les œuvres de Poloniato dans leur contexte et de découvrir d'autres trésors cachés.\nSuivez les cartons colorés que vous trouverez sur les côtés des autels.\nIls vous guideront, pas à pas, dans un cheminement idéal entre art et spiritualité.\nBonne visite.",
+      "es": "Estimado visitante, bienvenido a la exposición dedicada a Domenico Poloniato, en el centenario de su nacimiento.\nTe encuentras en la Iglesia Parroquial de Nove, dedicada a los Santos Pedro y Pablo.\nNosotros, los voluntarios del grupo \"I Blanser del Museo\", hemos elegido este lugar para darte a conocer la producción del ceramista de Nove relacionada con el tema de lo sagrado.\nEl recorrido te permitirá contextualizar las obras de Poloniato y descubrir otros tesoros ocultos.\nSigue las tarjetas de colores que encontrarás a los lados de los altares.\nTe guiarán, paso a paso, en un camino ideal entre arte y espiritualidad.\nBuena visita.",
+      "de": "Lieber Besucher, willkommen zur Ausstellung, die Domenico Poloniato anlässlich seines hundertsten Geburtstags gewidmet ist.\nSie befinden sich in der Pfarrkirche von Nove, die den Heiligen Petrus und Paulus geweiht ist.\nWir, die Freiwilligen der Gruppe „I Blanser del Museo\", haben diesen Ort gewählt, um Ihnen das Schaffen des Keramikers aus Nove zum Thema des Sakralen näherzubringen.\nDer Rundgang ermöglicht es Ihnen, die Werke Poloniatos einzuordnen und weitere verborgene Schätze zu entdecken.\nFolgen Sie den farbigen Kärtchen, die Sie neben den Altären finden.\nSie werden Sie Schritt für Schritt auf einem idealen Weg zwischen Kunst und Spiritualität begleiten.\nWir wünschen Ihnen einen schönen Besuch."
+    },
+    "image": "",
+    "audio": {
+      "it": "/assets/audio/opera-0-it.mp3",
+      "en": "/assets/audio/opera-0-en.mp3",
+      "fr": "/assets/audio/opera-0-fr.mp3",
+      "es": "/assets/audio/opera-0-es.mp3",
+      "de": "/assets/audio/opera-0-de.mp3"
+    },
+    "video": null
+  },
+  {
     "id": 1,
     "slug": "san-giorgio-e-il-drago",
     "title": {
@@ -10,14 +40,14 @@
       "de": "St. Georg und der Drache"
     },
     "artist": "Domenico Poloniato",
-    "details": "pannello in semi-refrattario, 90x70cm",
-    "year": "1926-2013",
+    "details": "pannello in semi-refrattario, h. 55cm",
+    "year": "fine anni '90",
     "description": {
-      "it": "Pannello in semi-refrattario (90x70cm). Opera di soggetto sacro a forte carica espressiva, parte della selezione dell'artista Domenico Poloniato per l'esposizione omaggio nel centenario della nascita.",
-      "en": "Semi-refractory panel (90x70cm). Sacred subject work with strong expressive power by Domenico Poloniato.",
-      "fr": "Panneau semi-réfractaire (90x70cm). Œuvre à sujet sacré à forte charge expressive par Domenico Poloniato.",
-      "es": "Panel en semi-refractario (90x70cm). Obra de tema sacro con fuerte carga expresiva de Domenico Poloniato.",
-      "de": "Semi-refraktäres Paneel (90x70cm). Sakrales Werk mit starker Ausdruckskraft von Domenico Poloniato."
+      "it": "Ci troviamo di fronte a uno dei soggetti prediletti da Domenico Poloniato: San Giorgio e il Drago. L'iconografia canonica permette di unire il tema sacro all'elemento fantastico della tradizione popolare, altro importante filone approfondito dall'artista novese.\nOsserva la tensione dei movimenti: il gesto fiero del Santo, lo slancio del cavallo e la resa finale del drago.\nTutto si risolve in un perfetto equilibrio geometrico, di derivazione classica.\nLe linee di forza si incrociano in precise diagonali, dalla lancia impugnata alla testa del drago trafitto e dalla coda allo zoccolo sollevato del cavallo.",
+      "en": "We are looking at one of Domenico Poloniato's favorite subjects: Saint George and the Dragon. The traditional iconography allows him to blend the sacred theme with the fantastical element of popular tradition, another important vein explored by the Nove-born artist.\nNotice the tension in the movements: the Saint's proud gesture, the horse's momentum, and the dragon's final pose.\nEverything resolves into a perfect geometric balance of classical derivation.\nThe lines of force intersect in precise diagonals, from the grasped lance to the pierced dragon's head, and from its tail to the horse's raised hoof.",
+      "fr": "Nous voici devant l'un des sujets de prédilection de Domenico Poloniato : Saint Georges et le Dragon. L'iconographie traditionnelle permet d'unir le thème sacré à l'élément fantastique de la tradition populaire, un autre courant important exploré par l'artiste de Nove.\nObservez la tension des mouvements : le geste fier du Saint, l'élan du cheval et le rendu final du dragon.\nTout se résout dans un parfait équilibre géométrique, d'inspiration classique.\nLes lignes de force se croisent selon des diagonales précises, de la lance empoignée à la tête transpercée du dragon, et de la queue au sabot levé du cheval.",
+      "es": "Nos encontramos ante uno de los temas preferidos de Domenico Poloniato: San Jorge y el Dragón. La iconografía tradicional permite unir el tema sagrado al elemento fantástico de la tradición popular, otra importante vertiente explorada por el artista de Nove.\nObserva la tensión de los movimientos: el gesto orgulloso del Santo, el ímpetu del caballo y la representación final del dragón.\nTodo se resuelve en un perfecto equilibrio geométrico, de derivación clásica.\nLas líneas de fuerza se cruzan en precisas diagonales, desde la lanza empuñada hasta la cabeza traspasada del dragón, y desde la cola hasta el casco levantado del caballo.",
+      "de": "Wir stehen vor einem der Lieblingsmotive von Domenico Poloniato: dem Heiligen Georg und dem Drachen. Die traditionelle Ikonographie erlaubt es, das sakrale Thema mit dem fantastischen Element der Volkstradition zu verbinden – ein weiterer wichtiger Strang, den der aus Nove stammende Künstler vertiefte.\nBeachte die Spannung der Bewegungen: die stolze Geste des Heiligen, den Schwung des Pferdes und die endgültige Darstellung des Drachens.\nAlles löst sich in einem perfekten geometrischen Gleichgewicht klassischer Herkunft auf.\nDie Kraftlinien kreuzen sich in präzisen Diagonalen, von der ergriffenen Lanze bis zum durchbohrten Kopf des Drachens und vom Schwanz bis zum erhobenen Huf des Pferdes."
     },
     "image": "/assets/images/san_giorgio.png",
     "audio": {
@@ -31,25 +61,25 @@
   },
   {
     "id": 2,
-    "slug": "madonna-con-bambino",
+    "slug": "sposalizio-della-vergine",
     "title": {
-      "it": "Madonna con Bambino",
-      "en": "Madonna and Child",
-      "fr": "Vierge à l'Enfant",
-      "es": "Virgen con el Niño",
-      "de": "Madonna mit Kind"
+      "it": "Sposalizio della Vergine",
+      "en": "The Betrothal of the Virgin",
+      "fr": "Le Mariage de la Vierge",
+      "es": "El Desposorio de la Virgen",
+      "de": "Die Vermählung Mariens"
     },
     "artist": "Domenico Poloniato",
-    "details": "scultura in semi-refrattario, h. 80cm",
-    "year": "1926-2013",
+    "details": "pannello in semi-refrattario, 51x62cm",
+    "year": "2008",
     "description": {
-      "it": "Scultura in semi-refrattario (altezza 80cm). Elegante figura sacra che testimonia la sensibilità plastica e il profondo legame dell'artista novese con la tradizione sacra locale.",
-      "en": "Semi-refractory sculpture (height 80cm). Elegant sacred figure showcasing Domenico Poloniato's sculptural sensitivity.",
-      "fr": "Sculpture semi-réfractaire (hauteur 80cm). Élégante figure sacrée témoignant de la sensibilité plastique de l'artiste.",
-      "es": "Escultura en semi-refractario (altura 80cm). Elegante figura sagrada que testimonia la sensibilidad plástica del artista.",
-      "de": "Semi-refraktäre Skulptur (Höhe 80cm). Elegante sakrale Figur, die die plastische Sensibilität des Künstlers zeigt."
+      "it": "Questo pannello raffigurante lo Sposalizio della Vergine trae ispirazione dalla celebre opera di Raffaello, oggi conservata alla Pinacoteca di Brera. Come il grande maestro urbinate, anche Poloniato si concentra sulla delicatezza dei volti e dei gesti, nel momento in cui Giuseppe e Maria si scelgono per sempre. Il ceramista interpreta, però, il soggetto in modo personale, traducendolo secondo il proprio linguaggio.\nDomenico raccomandava i suoi alunni e, in particolare, il figlio Diego, di consultare i libri d'arte e di considerarli veri strumenti di lavoro. Replicare le opere del passato con una chiave stilistica personale era, per Poloniato, un importante esercizio di studio: un modo per apprendere dai grandi del passato e sviluppare un proprio stile.",
+      "en": "This panel depicting the Betrothal of the Virgin draws inspiration from the famous work by Raphael, now housed in the Pinacoteca di Brera. Like the great master from Urbino, Poloniato too focuses on the delicacy of the faces and gestures, at the moment when Joseph and Mary choose each other forever. The ceramicist, however, interprets the subject in his own personal way, translating it into his own language.\nDomenico used to urge his students — and in particular his son Diego — to consult art books and treat them as true working tools. Reproducing works from the past with a personal stylistic key was, for Poloniato, an important study exercise: a way to learn from the great masters of the past and develop one's own style.",
+      "fr": "Ce panneau représentant le Mariage de la Vierge s'inspire de la célèbre œuvre de Raphaël, aujourd'hui conservée à la Pinacothèque de Brera. Comme le grand maître d'Urbino, Poloniato se concentre lui aussi sur la délicatesse des visages et des gestes, au moment où Joseph et Marie se choisissent pour toujours. Le céramiste interprète cependant le sujet de façon personnelle, en le traduisant selon son propre langage.\nDomenico recommandait à ses élèves, et en particulier à son fils Diego, de consulter les livres d'art et de les considérer comme de véritables outils de travail. Reproduire les œuvres du passé selon une clé stylistique personnelle était, pour Poloniato, un exercice d'étude important : une façon d'apprendre des grands maîtres du passé et de développer son propre style.",
+      "es": "Este panel que representa el Desposorio de la Virgen se inspira en la célebre obra de Rafael, hoy conservada en la Pinacoteca de Brera. Como el gran maestro de Urbino, también Poloniato se centra en la delicadeza de los rostros y los gestos, en el momento en que José y María se eligen para siempre. Sin embargo, el ceramista interpreta el tema de manera personal, traduciéndolo según su propio lenguaje.\nDomenico recomendaba a sus alumnos, y en particular a su hijo Diego, consultar los libros de arte y considerarlos verdaderas herramientas de trabajo. Reproducir las obras del pasado con una clave estilística personal era, para Poloniato, un importante ejercicio de estudio: una forma de aprender de los grandes maestros del pasado y desarrollar un estilo propio.",
+      "de": "Dieses Relief, das die Vermählung Mariens darstellt, ist von dem berühmten Werk Raffaels inspiriert, das heute in der Pinacoteca di Brera aufbewahrt wird. Wie der große Meister aus Urbino konzentriert sich auch Poloniato auf die Zartheit der Gesichter und Gesten, in dem Moment, in dem Josef und Maria sich für immer füreinander entscheiden. Der Keramiker interpretiert das Motiv jedoch auf persönliche Weise und übersetzt es in seine eigene Formensprache.\nDomenico empfahl seinen Schülern, insbesondere seinem Sohn Diego, Kunstbücher zu Rate zu ziehen und sie als echte Arbeitswerkzeuge zu betrachten. Werke der Vergangenheit mit einer persönlichen stilistischen Note nachzubilden, war für Poloniato eine wichtige Studienübung: eine Möglichkeit, von den großen Meistern der Vergangenheit zu lernen und einen eigenen Stil zu entwickeln."
     },
-    "image": "/assets/images/madonna_con_bambino.png",
+    "image": "/assets/images/sposalizio_della_vergine.png",
     "audio": {
       "it": "/assets/audio/opera-2-it.mp3",
       "en": "/assets/audio/opera-2-en.mp3",
@@ -61,25 +91,25 @@
   },
   {
     "id": 3,
-    "slug": "nativita",
+    "slug": "madonna-con-bambino",
     "title": {
-      "it": "Natività",
-      "en": "Nativity",
-      "fr": "Nativité",
-      "es": "Natividad",
-      "de": "Geburt Christi"
+      "it": "Madonna con Bambino",
+      "en": "Madonna and Child",
+      "fr": "Vierge à l'Enfant",
+      "es": "Virgen con el Niño",
+      "de": "Madonna mit Kind"
     },
     "artist": "Domenico Poloniato",
-    "details": "gruppo scultoreo in semi-refrattario, 50x60cm",
-    "year": "1926-2013",
+    "details": "scultura in semi-refrattario, h. 63cm",
+    "year": "2002",
     "description": {
-      "it": "Gruppo scultoreo in semi-refrattario (50x60cm). Scena sacra ricca di pathos e maestria modellistica, caratteristica della produzione di Domenico Poloniato.",
-      "en": "Semi-refractory sculptural group (50x60cm). Sacred scene rich in pathos and modeling expertise.",
-      "fr": "Groupe sculptural semi-réfractaire (50x60cm). Scène sacrée riche en pathos et maîtrise du modelage.",
-      "es": "Grupo escultórico en semi-refractario (50x60cm). Escena sagrada rica en emoción y maestría.",
-      "de": "Semi-refraktäre Skulpturengruppe (50x60cm). Sakrale Szene voller Pathos und Modellierkunst."
+      "it": "La Madonna con bambino qui esposta si distingue per la tenerezza del volto, leggermente reclinato.\nLe onde dei capelli che escono dal velo e il panneggio conferiscono alla scultura la morbidezza propria del gesto materno.\nSorprende anche la precisione anatomica. Per creare opere così proporzionate, Poloniato modellava prima il corpo nudo delle figure umane, per poi aggiungervi le vesti. Secondo l'artista, questo metodo conferiva alle sculture un dinamismo realistico e naturale.",
+      "en": "The Madonna and Child on display here stands out for the tenderness of her slightly tilted face.\nThe waves of hair emerging from the veil and the drapery give the sculpture the softness typical of a mother's gesture.\nThe anatomical precision is also striking. To create such well-proportioned works, Poloniato would first model the nude body of the human figures, and only afterwards add the garments. According to the artist, this method gave his sculptures a realistic and natural dynamism.",
+      "fr": "La Vierge à l'Enfant présentée ici se distingue par la tendresse de son visage, légèrement incliné.\nLes ondulations des cheveux qui s'échappent du voile et le drapé confèrent à la sculpture la douceur propre au geste maternel.\nLa précision anatomique surprend également. Pour créer des œuvres aussi bien proportionnées, Poloniato modelait d'abord le corps nu des figures humaines, avant d'y ajouter les vêtements. Selon l'artiste, cette méthode conférait aux sculptures un dynamisme réaliste et naturel.",
+      "es": "La Virgen con el Niño aquí expuesta se distingue por la ternura de su rostro, ligeramente inclinado.\nLas ondas del cabello que escapan del velo y el drapeado confieren a la escultura la suavidad propia del gesto materno.\nSorprende también la precisión anatómica. Para crear obras tan bien proporcionadas, Poloniato modelaba primero el cuerpo desnudo de las figuras humanas, para luego añadir las vestimentas. Según el artista, este método confería a las esculturas un dinamismo realista y natural.",
+      "de": "Die hier ausgestellte Madonna mit Kind zeichnet sich durch die Zartheit ihres leicht geneigten Gesichts aus.\nDie Haarwellen, die unter dem Schleier hervortreten, und der Faltenwurf verleihen der Skulptur die Weichheit einer mütterlichen Geste.\nAuch die anatomische Präzision überrascht. Um so proportionierte Werke zu schaffen, modellierte Poloniato zunächst den nackten Körper der menschlichen Figuren und fügte erst danach die Gewänder hinzu. Nach Auffassung des Künstlers verlieh diese Methode seinen Skulpturen eine realistische und natürliche Dynamik."
     },
-    "image": "/assets/images/sposalizio_1.png",
+    "image": "/assets/images/madonna_con_bambino.png",
     "audio": {
       "it": "/assets/audio/opera-3-it.mp3",
       "en": "/assets/audio/opera-3-en.mp3",
@@ -91,25 +121,25 @@
   },
   {
     "id": 4,
-    "slug": "presepio-1",
+    "slug": "presepio-2010",
     "title": {
-      "it": "Presepio (80x40cm)",
-      "en": "Nativity Scene (80x40cm)",
-      "fr": "Crèche (80x40cm)",
-      "es": "Pesebre (80x40cm)",
-      "de": "Krippe (80x40cm)"
+      "it": "Presepio (2010)",
+      "en": "Nativity Scene (2010)",
+      "fr": "Crèche (2010)",
+      "es": "Pesebre (2010)",
+      "de": "Krippe (2010)"
     },
     "artist": "Domenico Poloniato",
-    "details": "gruppo scultoreo in semi-refrattario, 80x40cm",
-    "year": "1926-2013",
+    "details": "pannello in semi-refrattario, 60x50cm",
+    "year": "2010",
     "description": {
-      "it": "Gruppo scultoreo in semi-refrattario (80x40cm). Rappresentazione tridimensionale del presepe che fonde tradizione popolare ceramica e ricerca formale.",
-      "en": "Semi-refractory sculptural group (80x40cm). Three-dimensional nativity scene blending ceramic tradition and formal research.",
-      "fr": "Groupe sculptural semi-réfractaire (80x40cm). Représentation de la crèche alliant tradition céramique et recherche formelle.",
-      "es": "Grupo escultórico en semi-refractario (80x40cm). Representación del pesebre que combina tradición y maestría.",
-      "de": "Semi-refraktäre Skulpturengruppe (80x40cm). Dreidimensionale Krippendarstellung voller Details."
+      "it": "Quello che stai osservando è solo uno dei tanti presepi realizzati da Poloniato.\nLa scena della nascita di Cristo permetteva all'artista di inserire il Divino in ambientazioni tipicamente popolari, come umili stalle e dimore.\nSoffermati sui dettagli di questo lavoro. Noterai come la scena sia intrisa di sacralità e, al tempo stesso di quotidianità. Il paesaggio antropico del Brenta si apre, qui, ad una dimensione più intima e spirituale.\nNella Sacra Famiglia e nei pastori possiamo scorgere la semplicità delle genti del fiume, avvertendone la vicinanza. Toccando nel profondo le corde della nostra anima, queste sculture si fanno familiari, permettendoci, ancora oggi, di riconoscerci in loro.",
+      "en": "What you are looking at is just one of the many nativity scenes created by Poloniato.\nThe scene of Christ's birth allowed the artist to place the Divine within typically humble, popular settings, such as modest stables and dwellings.\nTake a moment to study the details of this work. You will notice how the scene is steeped in sacredness and, at the same time, everyday life. Here, the humanized landscape of the Brenta river opens onto a more intimate and spiritual dimension.\nIn the Holy Family and the shepherds we can glimpse the simplicity of the river's people, sensing their closeness. Touching the deepest chords of our soul, these sculptures become familiar, allowing us, even today, to recognize ourselves in them.",
+      "fr": "Ce que vous observez n'est qu'une des nombreuses crèches réalisées par Poloniato.\nLa scène de la naissance du Christ permettait à l'artiste d'inscrire le Divin dans des décors typiquement populaires, comme d'humbles étables et demeures.\nAttardez-vous sur les détails de cette œuvre. Vous remarquerez combien la scène est empreinte de sacré tout en restant ancrée dans le quotidien. Le paysage anthropisé du Brenta s'ouvre ici à une dimension plus intime et spirituelle.\nDans la Sainte Famille et les bergers, on perçoit la simplicité des gens du fleuve, et l'on en ressent la proximité. Touchant au plus profond les cordes de notre âme, ces sculptures nous deviennent familières et nous permettent, aujourd'hui encore, de nous reconnaître en elles.",
+      "es": "Lo que estás observando es solo uno de los muchos belenes realizados por Poloniato.\nLa escena del nacimiento de Cristo le permitía al artista situar lo Divino en ambientes típicamente populares, como humildes establos y viviendas.\nDetente en los detalles de esta obra. Notarás cómo la escena está impregnada de sacralidad y, al mismo tiempo, de cotidianidad. El paisaje antrópico del Brenta se abre aquí a una dimensión más íntima y espiritual.\nEn la Sagrada Familia y en los pastores podemos vislumbrar la sencillez de las gentes del río, percibiendo su cercanía. Tocando en lo más profundo las cuerdas de nuestra alma, estas esculturas se vuelven familiares, permitiéndonos, todavía hoy, reconocernos en ellas.",
+      "de": "Was Sie hier sehen, ist nur eine der vielen Krippen, die Poloniato geschaffen hat.\nDie Szene der Geburt Christi erlaubte es dem Künstler, das Göttliche in typisch volkstümliche Umgebungen wie bescheidene Ställe und Behausungen zu versetzen.\nBetrachten Sie die Details dieses Werks genau. Sie werden bemerken, wie die Szene zugleich von Sakralität und Alltäglichkeit durchdrungen ist. Die vom Menschen geprägte Landschaft des Brenta öffnet sich hier zu einer intimeren, spirituelleren Dimension.\nIn der Heiligen Familie und den Hirten erkennen wir die Einfachheit der Flussbewohner und spüren ihre Nähe. Diese Skulpturen berühren die tiefsten Saiten unserer Seele, werden uns vertraut und erlauben es uns, uns noch heute in ihnen wiederzuerkennen."
     },
-    "image": "/assets/images/presepe.png",
+    "image": "/assets/images/presepe_2010.png",
     "audio": {
       "it": "/assets/audio/opera-4-it.mp3",
       "en": "/assets/audio/opera-4-en.mp3",
@@ -121,25 +151,25 @@
   },
   {
     "id": 5,
-    "slug": "presepio-2",
+    "slug": "presepio-2007",
     "title": {
-      "it": "Presepio (50x40cm)",
-      "en": "Nativity Scene (50x40cm)",
-      "fr": "Crèche (50x40cm)",
-      "es": "Pesebre (50x40cm)",
-      "de": "Krippe (50x40cm)"
+      "it": "Presepio (2007)",
+      "en": "Nativity Scene (2007)",
+      "fr": "Crèche (2007)",
+      "es": "Pesebre (2007)",
+      "de": "Krippe (2007)"
     },
     "artist": "Domenico Poloniato",
-    "details": "gruppo scultoreo in semi-refrattario, 50x40cm",
-    "year": "1926-2013",
+    "details": "gruppo scultoreo in semi-refrattario, 33x50x25cm",
+    "year": "2007",
     "description": {
-      "it": "Gruppo scultoreo in semi-refrattario (50x40cm). Interpretazione intima e suggestiva del tema della Natività nella ceramica di Nove.",
-      "en": "Semi-refractory sculptural group (50x40cm). Intimate interpretation of the Nativity theme.",
-      "fr": "Groupe sculptural semi-réfractaire (50x40cm). Interpretation intime du thème de la Nativité.",
-      "es": "Grupo escultórico en semi-refractario (50x40cm). Interpretación íntima del tema de la Natividad.",
-      "de": "Semi-refraktäre Skulpturengruppe (50x40cm). Intime Interpretation des Krippenthemas."
+      "it": "Gruppo scultoreo in semi-refrattario. Presepio tridimensionale, interpretazione intima e suggestiva del tema della Natività nella ceramica di Nove.",
+      "en": "Semi-refractory sculptural group. Three-dimensional nativity scene.",
+      "fr": "Groupe sculptural semi-réfractaire. Crèche tridimensionnelle.",
+      "es": "Grupo escultórico en semi-refractario. Pesebre tridimensional.",
+      "de": "Semi-refraktäre Skulpturengruppe. Dreidimensionale Krippe."
     },
-    "image": "/assets/images/presepe2.png",
+    "image": "/assets/images/presepe_7.png",
     "audio": {
       "it": "/assets/audio/opera-5-it.mp3",
       "en": "/assets/audio/opera-5-en.mp3",
@@ -160,16 +190,16 @@
       "de": "Die Heiligen Drei Könige"
     },
     "artist": "Domenico Poloniato",
-    "details": "sculture in semi-refrattario, altezze h. 30, 40, 45cm",
-    "year": "1926-2013",
+    "details": "sculture in semi-refrattario, altezze diverse: h. 30, 40, 45cm",
+    "year": "2009/10 c.ca",
     "description": {
-      "it": "Sculture in semi-refrattario con altezze diverse (h. 30, 40, 45cm). Trittico scultoreo raffigurante i Re Magi con raffinati dettagli decorativi plastici.",
-      "en": "Semi-refractory sculptures of varying heights (h. 30, 40, 45cm). Triptych of the Three Magi.",
-      "fr": "Sculptures semi-réfractaires de différentes hauteurs (h. 30, 40, 45cm). Triptyque des Rois Mages.",
-      "es": "Esculturas en semi-refractario de distintas alturas (h. 30, 40, 45cm). Tríptico escultórico de los Reyes Magos.",
-      "de": "Semi-refraktäre Skulpturen in verschiedenen Höhen (h. 30, 40, 45cm). Triptychon der Heiligen Drei Könige."
+      "it": "Osserva queste tre figure, che rappresentano i Re Magi, ognuno in una posizione diversa rispetto agli altri. Ti colpirà subito la ricchezza dei dettagli con cui sono resi gli abiti, i preziosi copricapi e i doni portati con sé.\nMa guarda più da vicino la precisione con cui è modellato il cammello. Ammira la definizione della sua pelliccia, l'attenzione alla lingua che si intravede tra le labbra socchiuse e la resa anatomica di tendini e ossatura. Un'attenzione quasi miniaturistica.\nIn lavori come questi emerge tutta l'abilità di Poloniato nel plasmare la terra che, come ripeteva spesso, è fatta per essere cambiata se qualche particolare non ci soddisfa.",
+      "en": "Look closely at these three figures, representing the Three Kings, each posed differently from the others. You will immediately be struck by the wealth of detail in their robes, precious headdresses, and the gifts they carry.\nBut look even closer at the precision with which the camel is modeled. Admire the detail of its fur, the attention paid to the tongue glimpsed between its slightly parted lips, and the anatomical rendering of tendons and bone structure. An almost miniaturist level of care.\nIn works like this, all of Poloniato's skill in shaping clay comes to the fore — clay that, as he often repeated, is meant to be changed if some detail doesn't satisfy us.",
+      "fr": "Observez ces trois personnages, qui représentent les Rois Mages, chacun dans une posture différente des autres. Vous serez immédiatement frappé par la richesse des détails avec lesquels sont rendus les vêtements, les précieuses coiffes et les présents qu'ils portent.\nMais regardez de plus près la précision avec laquelle le chameau est modelé. Admirez le rendu de sa fourrure, l'attention portée à la langue que l'on aperçoit entre ses lèvres entrouvertes, et le rendu anatomique des tendons et de l'ossature. Une attention presque miniaturiste.\nDans des œuvres comme celle-ci transparaît tout le talent de Poloniato à façonner la terre qui, comme il le répétait souvent, est faite pour être modifiée si un détail ne nous satisfait pas.",
+      "es": "Observa estas tres figuras, que representan a los Reyes Magos, cada una en una posición diferente respecto a las demás. Te sorprenderá enseguida la riqueza de detalles con la que están representados los ropajes, los preciosos tocados y los dones que llevan consigo.\nPero mira más de cerca la precisión con la que está modelado el camello. Admira la definición de su pelaje, la atención puesta en la lengua que se entrevé entre los labios entreabiertos y la representación anatómica de tendones y huesos. Una atención casi miniaturista.\nEn trabajos como este emerge toda la habilidad de Poloniato para modelar la arcilla que, como repetía a menudo, está hecha para ser cambiada si algún detalle no nos satisface.",
+      "de": "Betrachten Sie diese drei Figuren, die die Heiligen Drei Könige darstellen, jede in einer anderen Haltung als die anderen. Sofort wird Sie der Detailreichtum beeindrucken, mit dem die Gewänder, die kostbaren Kopfbedeckungen und die mitgebrachten Gaben wiedergegeben sind.\nDoch schauen Sie noch genauer auf die Präzision, mit der das Kamel modelliert ist. Bewundern Sie die Ausarbeitung seines Fells, die Aufmerksamkeit für die Zunge, die zwischen den leicht geöffneten Lippen zu erahnen ist, und die anatomische Wiedergabe von Sehnen und Knochenbau. Eine fast miniaturistische Sorgfalt.\nIn Arbeiten wie dieser zeigt sich Poloniatos ganzes Können im Formen des Tons, der, wie er oft wiederholte, dazu da ist, verändert zu werden, wenn uns ein Detail nicht zufriedenstellt."
     },
-    "image": "/assets/images/re_magio_1.png",
+    "image": "/assets/images/re_magi.png",
     "audio": {
       "it": "/assets/audio/opera-6-it.mp3",
       "en": "/assets/audio/opera-6-en.mp3",
@@ -181,25 +211,25 @@
   },
   {
     "id": 7,
-    "slug": "deposizione-1",
+    "slug": "ultima-cena",
     "title": {
-      "it": "Deposizione (Pannello A)",
-      "en": "Deposition (Panel A)",
-      "fr": "Déposition (Panneau A)",
-      "es": "Deposición (Panel A)",
-      "de": "Kreuzabnahme (Paneel A)"
+      "it": "Ultima Cena",
+      "en": "The Last Supper",
+      "fr": "La Cène",
+      "es": "La Última Cena",
+      "de": "Das Letzte Abendmahl"
     },
     "artist": "Domenico Poloniato",
-    "details": "pannello in semi-refrattario, 100x40cm",
-    "year": "1926-2013",
+    "details": "gruppo scultoreo in semi-refrattario",
+    "year": "2000 c.ca",
     "description": {
-      "it": "Pannello in semi-refrattario (100x40cm). Opera monumentale di soggetto passionale caratterizzata da un'intensa drammaticità e padronanza del bassorilievo.",
-      "en": "Semi-refractory panel (100x40cm). Monumental bas-relief of the Deposition.",
-      "fr": "Panneau semi-réfractaire (100x40cm). Œuvre monumentale représentant la Déposition.",
-      "es": "Panel en semi-refractario (100x40cm). Obra monumental que representa la Deposición.",
-      "de": "Semi-refraktäres Paneel (100x40cm). Monumentales Relief der Kreuzabnahme."
+      "it": "Gruppo scultoreo in semi-refrattario. Rappresentazione dell'Ultima Cena, tra i soggetti più celebri dell'iconografia cristiana, qui reinterpretato da Domenico Poloniato.",
+      "en": "Semi-refractory sculptural group. Depiction of the Last Supper.",
+      "fr": "Groupe sculptural semi-réfractaire. Représentation de la Cène.",
+      "es": "Grupo escultórico en semi-refractario. Representación de la Última Cena.",
+      "de": "Semi-refraktäre Skulpturengruppe. Darstellung des Letzten Abendmahls."
     },
-    "image": "/assets/images/deposizione.png",
+    "image": "/assets/images/ultima_cena.png",
     "audio": {
       "it": "/assets/audio/opera-7-it.mp3",
       "en": "/assets/audio/opera-7-en.mp3",
@@ -211,23 +241,23 @@
   },
   {
     "id": 8,
-    "slug": "deposizione-2",
+    "slug": "deposizione",
     "title": {
-      "it": "Deposizione (Pannello B)",
-      "en": "Deposition (Panel B)",
-      "fr": "Déposition (Panneau B)",
-      "es": "Deposición (Panel B)",
-      "de": "Kreuzabnahme (Paneel B)"
+      "it": "Deposizione",
+      "en": "Deposition",
+      "fr": "Déposition",
+      "es": "Deposición",
+      "de": "Kreuzabnahme"
     },
     "artist": "Domenico Poloniato",
-    "details": "pannello in semi-refrattario, 100x40cm",
-    "year": "1926-2013",
+    "details": "pannello in semi-refrattario, 90x60cm",
+    "year": "2006",
     "description": {
-      "it": "Pannello in semi-refrattario (100x40cm). Seconda variante del tema della Deposizione, caratterizzata da estrema sensibilità narrativa nei gesti e nei volti.",
-      "en": "Semi-refractory panel (100x40cm). Second variation of the Deposition theme.",
-      "fr": "Panneau semi-réfractaire (100x40cm). Seconde variante du thème de la Déposition.",
-      "es": "Panel en semi-refractario (100x40cm). Segunda variante del tema de la Deposición.",
-      "de": "Semi-refraktäres Paneel (100x40cm). Zweite Variante des Kreuzabnahme-Themas."
+      "it": "Pannello in semi-refrattario. Opera monumentale di soggetto passionale caratterizzata da un'intensa drammaticità e padronanza del bassorilievo.",
+      "en": "Semi-refractory panel. Monumental bas-relief of the Deposition.",
+      "fr": "Panneau semi-réfractaire. Œuvre monumentale représentant la Déposition.",
+      "es": "Panel en semi-refractario. Obra monumental que representa la Deposición.",
+      "de": "Semi-refraktäres Paneel. Monumentales Relief der Kreuzabnahme."
     },
     "image": "/assets/images/deposizione.png",
     "audio": {
@@ -250,14 +280,14 @@
       "de": "Pietà"
     },
     "artist": "Domenico Poloniato",
-    "details": "gruppo scultoreo in semi-refrattario, 50x40cm",
-    "year": "1926-2013",
+    "details": "gruppo scultoreo in semi-refrattario, h. 31cm",
+    "year": "2006",
     "description": {
-      "it": "Gruppo scultoreo in semi-refrattario (50x40cm). Scultura sacra di straordinaria intensità emotiva che restituisce con precisione il dolore e il raccoglimento della Vergine.",
-      "en": "Semi-refractory sculptural group (50x40cm). Sacred sculpture of extraordinary emotional intensity.",
-      "fr": "Groupe sculptural semi-réfractaire (50x40cm). Sculpture sacrée d'une intensité émotionnelle remarquable.",
-      "es": "Grupo escultórico en semi-refractario (50x40cm). Escultura sagrada de gran intensidad emotiva.",
-      "de": "Semi-refraktäre Skulpturengruppe (50x40cm). Sakrale Skulptur von außergewöhnlicher emotionaler Tiefe."
+      "it": "Ci troviamo ora di fronte ad un'altra opera di Poloniato che rielabora temi affrontati dai grandi maestri del passato. Il manufatto qui esposto, infatti, si ispira chiaramente a Michelangelo.\nLa stessa madre che abbraccia e mostra al mondo il suo bambino ha la forza anche per sostenere il corpo morto del figlio e stringerlo in un ultimo, doloroso abbraccio. La piccola pietà realizzata da Poloniato appare minuta nel modellato, ma potente nell'espressione del dramma di Maria che, accogliendo la sofferenza di Gesù, si fa carico dell'intera umanità.",
+      "en": "Semi-refractory sculptural group. Sacred sculpture of extraordinary emotional intensity.",
+      "fr": "Groupe sculptural semi-réfractaire. Sculpture sacrée d'une intensité émotionnelle remarquable.",
+      "es": "Grupo escultórico en semi-refractario. Escultura sagrada de gran intensidad emotiva.",
+      "de": "Semi-refraktäre Skulpturengruppe. Sakrale Skulptur von außergewöhnlicher emotionaler Tiefe."
     },
     "image": "/assets/images/pietà.png",
     "audio": {
@@ -280,16 +310,16 @@
       "de": "Auferstehung"
     },
     "artist": "Domenico Poloniato",
-    "details": "gruppo scultoreo in semi-refrattario, h. 40cm (Opera esposta al Museo Civico)",
-    "year": "1926-2013",
+    "details": "gruppo scultoreo in semi-refrattario, h. 40cm (opera esposta al Museo Civico)",
+    "year": "2000 c.ca",
     "description": {
-      "it": "Gruppo scultoreo in semi-refrattario (h. 40cm). Opera esposta al Museo Civico di Nove. Rappresentazione trionfale e dinamica del Cristo risorto attorniato da figure monumentali.",
-      "en": "Semi-refractory sculptural group (h. 40cm). Exhibited at the Civic Museum. Dynamic and triumphant depiction of the Resurrected Christ.",
-      "fr": "Groupe sculptural semi-réfractaire (h. 40cm). Exposée au Musée Civique. Représentation triomphale et dynamique du Christ ressuscité.",
-      "es": "Grupo escultórico en semi-refractario (h. 40cm). Expuesta en el Museo Cívico. Representación triunfal del Cristo resucitado.",
-      "de": "Semi-refraktäre Skulpturengruppe (h. 40cm). Im Museo Civico ausgestellt. Dynamische Darstellung des auferstandenen Christus."
+      "it": "Per ammirare questo capolavoro di Poloniato, devi recarti nel vicino Museo Civico della Ceramica, a cui l'opera è stata donata dai familiari.\nLa Risurrezione meraviglia per il dinamismo dei corpi e il dettaglio dei particolari.\nL'intero gruppo suggerisce una vorticosa ascensione: un movimento che si completa nel gesto della mano sollevata di Cristo, guidato dal posizionamento delle lance dei soldati romani.\nIl corpo spoglio e fiero di Gesù Risorto lascia attonite le guardie.\nUn dettaglio particolare, che suggerisce una presenza invisibile all'occhio umano, è dato dai capelli dei due soldati senza elmo. Sono mossi come da un vento, da uno Spirito Santo che accompagna il Figlio verso il Padre che sta nei cieli.",
+      "en": "To admire this masterpiece by Poloniato, you need to visit the nearby Civic Ceramics Museum, to which the work was donated by the artist's family.\nThe Resurrection is striking for the dynamism of the bodies and the detail of every element.\nThe whole group suggests a swirling ascension: a movement completed in the gesture of Christ's raised hand, guided by the positioning of the Roman soldiers' spears.\nThe bare, proud body of the Risen Christ leaves the guards stunned.\nOne particular detail, suggesting a presence invisible to the human eye, is found in the hair of the two helmetless soldiers. It moves as if stirred by a wind — by a Holy Spirit accompanying the Son toward the Father who dwells in the heavens.",
+      "fr": "Pour admirer ce chef-d'œuvre de Poloniato, il faut se rendre au Musée Civique de la Céramique tout proche, auquel l'œuvre a été donnée par la famille de l'artiste.\nLa Résurrection émerveille par le dynamisme des corps et le soin apporté aux détails.\nL'ensemble du groupe suggère une ascension tourbillonnante : un mouvement qui s'achève dans le geste de la main levée du Christ, guidé par le positionnement des lances des soldats romains.\nLe corps dénudé et fier du Christ ressuscité laisse les gardes stupéfaits.\nUn détail particulier, qui suggère une présence invisible à l'œil humain, se trouve dans les cheveux des deux soldats sans casque. Ils sont agités comme par un vent, par un Esprit Saint qui accompagne le Fils vers le Père qui est aux cieux.",
+      "es": "Para admirar esta obra maestra de Poloniato, hay que dirigirse al cercano Museo Cívico de la Cerámica, al que la obra fue donada por la familia del artista.\nLa Resurrección sorprende por el dinamismo de los cuerpos y el detalle de cada particular.\nTodo el grupo sugiere una vertiginosa ascensión: un movimiento que se completa en el gesto de la mano levantada de Cristo, guiado por la disposición de las lanzas de los soldados romanos.\nEl cuerpo desnudo y orgulloso de Jesús Resucitado deja atónitos a los guardias.\nUn detalle particular, que sugiere una presencia invisible al ojo humano, se encuentra en el cabello de los dos soldados sin casco. Se mueve como agitado por un viento, por un Espíritu Santo que acompaña al Hijo hacia el Padre que está en los cielos.",
+      "de": "Um dieses Meisterwerk Poloniatos zu bewundern, muss man das nahegelegene Städtische Keramikmuseum aufsuchen, dem das Werk von der Familie des Künstlers geschenkt wurde.\nDie Auferstehung besticht durch die Dynamik der Körper und die Detailgenauigkeit.\nDie gesamte Gruppe suggeriert eine wirbelnde Himmelfahrt: eine Bewegung, die sich in der Geste der erhobenen Hand Christi vollendet, geleitet durch die Anordnung der Lanzen der römischen Soldaten.\nDer nackte, stolze Körper des auferstandenen Jesus lässt die Wachen erstarren.\nEin besonderes Detail, das eine dem menschlichen Auge unsichtbare Gegenwart andeutet, sind die Haare der beiden Soldaten ohne Helm. Sie bewegen sich, als würde ein Wind sie erfassen – der Heilige Geist, der den Sohn zum Vater in den Himmeln begleitet."
     },
-    "image": "/assets/images/re_magi_2.png",
+    "image": "/assets/images/risurrezione.png",
     "audio": {
       "it": "/assets/audio/opera-10-it.mp3",
       "en": "/assets/audio/opera-10-en.mp3",
@@ -298,5 +328,35 @@
       "de": "/assets/audio/opera-10-de.mp3"
     },
     "video": "/assets/video/opera-10.mp4"
+  },
+  {
+    "id": 11,
+    "slug": "saluti-e-ringraziamenti",
+    "title": {
+      "it": "Saluti e Ringraziamenti",
+      "en": "Farewell and Thanks",
+      "fr": "Salutations et Remerciements",
+      "es": "Despedida y Agradecimientos",
+      "de": "Abschied und Dank"
+    },
+    "artist": "",
+    "details": "",
+    "year": "",
+    "description": {
+      "it": "Siamo giunti alla conclusione del percorso guidato.\nTi ringraziamo per averci dedicato il tuo tempo.\nSperiamo che la mostra ti sia piaciuta e che questo percorso ti abbia permesso di conoscere più da vicino l'arte di Domenico Poloniato, un artista straordinario, tra i principali interpreti della tradizione ceramica novese.\nMa il viaggio continua.\nTi invitiamo a visitare il Museo Civico della Ceramica e l'esposizione curata dal dottor Nadir Stringa nell'area del Mulino Barettoni, dove potrai scoprire altre importanti espressioni dell'arte di Domenico Poloniato.\nSe desideri conoscere più da vicino il mondo della bottega ceramica e la trasmissione degli antichi saperi, puoi visitare il laboratorio di Diego Poloniato, in via degli Astronauti, 3.\nSarà un'occasione per incontrare una tradizione ancora viva e tramandata.",
+      "en": "We have come to the end of the guided tour.\nThank you for dedicating your time to us.\nWe hope you enjoyed the exhibition and that this journey allowed you to get to know the art of Domenico Poloniato more closely — an extraordinary artist, among the leading interpreters of the Nove ceramic tradition.\nBut the journey continues.\nWe invite you to visit the Civic Ceramics Museum and the exhibition curated by Dr. Nadir Stringa in the Mulino Barettoni area, where you can discover other important expressions of Domenico Poloniato's art.\nIf you would like to get to know the world of the ceramic workshop and the transmission of ancient knowledge more closely, you can visit Diego Poloniato's workshop, at Via degli Astronauti, 3.\nIt will be an opportunity to encounter a tradition that is still alive and being passed down.",
+      "fr": "Nous voici arrivés à la fin du parcours guidé.\nNous vous remercions d'avoir consacré votre temps à cette visite.\nNous espérons que l'exposition vous a plu et que ce parcours vous a permis de mieux connaître l'art de Domenico Poloniato, un artiste extraordinaire, parmi les principaux interprètes de la tradition céramique de Nove.\nMais le voyage continue.\nNous vous invitons à visiter le Musée Civique de la Céramique et l'exposition organisée par le docteur Nadir Stringa dans le quartier du Mulino Barettoni, où vous pourrez découvrir d'autres expressions importantes de l'art de Domenico Poloniato.\nSi vous souhaitez découvrir de plus près le monde de l'atelier céramique et la transmission des savoirs anciens, vous pouvez visiter l'atelier de Diego Poloniato, via degli Astronauti, 3.\nCe sera l'occasion de rencontrer une tradition encore vivante et transmise.",
+      "es": "Hemos llegado al final del recorrido guiado.\nTe agradecemos que nos hayas dedicado tu tiempo.\nEsperamos que la exposición te haya gustado y que este recorrido te haya permitido conocer más de cerca el arte de Domenico Poloniato, un artista extraordinario, entre los principales intérpretes de la tradición cerámica de Nove.\nPero el viaje continúa.\nTe invitamos a visitar el Museo Cívico de la Cerámica y la exposición comisariada por el doctor Nadir Stringa en la zona del Mulino Barettoni, donde podrás descubrir otras importantes expresiones del arte de Domenico Poloniato.\nSi deseas conocer más de cerca el mundo del taller cerámico y la transmisión de los antiguos saberes, puedes visitar el taller de Diego Poloniato, en via degli Astronauti, 3.\nSerá una ocasión para encontrar una tradición todavía viva y transmitida.",
+      "de": "Wir sind am Ende des geführten Rundgangs angekommen.\nWir danken Ihnen, dass Sie sich Zeit für uns genommen haben.\nWir hoffen, dass Ihnen die Ausstellung gefallen hat und dass dieser Rundgang es Ihnen ermöglicht hat, die Kunst von Domenico Poloniato näher kennenzulernen – einen außergewöhnlichen Künstler, einen der bedeutendsten Vertreter der Keramiktradition von Nove.\nDoch die Reise geht weiter.\nWir laden Sie ein, das Städtische Keramikmuseum und die von Dr. Nadir Stringa kuratierte Ausstellung im Bereich der Mulino Barettoni zu besuchen, wo Sie weitere wichtige Ausdrucksformen der Kunst von Domenico Poloniato entdecken können.\nWenn Sie die Welt der Keramikwerkstatt und die Weitergabe alten Wissens näher kennenlernen möchten, können Sie die Werkstatt von Diego Poloniato in der Via degli Astronauti 3 besuchen.\nEs wird eine Gelegenheit sein, eine noch lebendige und weitergegebene Tradition zu erleben."
+    },
+    "image": "",
+    "audio": {
+      "it": "/assets/audio/opera-11-it.mp3",
+      "en": "/assets/audio/opera-11-en.mp3",
+      "fr": "/assets/audio/opera-11-fr.mp3",
+      "es": "/assets/audio/opera-11-es.mp3",
+      "de": "/assets/audio/opera-11-de.mp3"
+    },
+    "video": null
   }
 ]

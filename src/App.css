@@ -267,6 +267,19 @@
   padding-top: 14px;
 }
 
+.home__intro,
+.home__closing {
+  margin-top: 14px;
+}
+
+.home__intro-text,
+.home__closing-text {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text);
+  white-space: pre-line;
+}
+
 .home__bio p + p {
   margin-top: 10px;
 }

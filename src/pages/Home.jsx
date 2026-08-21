@@ -1,10 +1,22 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
+import AudioPlayer from '../components/AudioPlayer'
+
+function resolveAssetUrl(path) {
+  if (!path) return ''
+  const base = import.meta.env.BASE_URL || '/'
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path
+  const cleanBase = base.endsWith('/') ? base : `${base}/`
+  return `${cleanBase}${cleanPath}`
+}
 
 function Home() {
   const { t, i18n } = useTranslation()
   const lang = i18n.resolvedLanguage || 'it'
+  const introduzione = opere.find((o) => o.id === 0)
+  const saluti = opere.find((o) => o.id === 11)
+  const opereInMostra = opere.filter((o) => o.id >= 1 && o.id <= 10)
 
   return (
     <section className="home">
@@ -19,6 +31,13 @@ function Home() {
         </div>
 
         <div className="divider-bar"></div>
+
+        {introduzione && (
+          <div className="home__intro">
+            <div className="home__intro-text">{introduzione.description[lang]}</div>
+            <AudioPlayer src={resolveAssetUrl(introduzione.audio?.[lang])} />
+          </div>
+        )}
 
         <div className="home__bio">
           <p>{t('bio_paragraph1')}</p>
@@ -42,7 +61,7 @@ function Home() {
       </h2>
 
       <ul className="home__list">
-        {opere.map((opera) => {
+        {opereInMostra.map((opera) => {
           const title = opera.title[lang] ?? opera.title.it
           return (
             <li key={opera.id} className="home__list-item">
@@ -61,6 +80,20 @@ function Home() {
           )
         })}
       </ul>
+
+      {saluti && (
+        <>
+          <div className="divider-bar divider-bar--center"></div>
+          <h2 className="home__section-title">
+            <span className="star-symbol" aria-hidden="true">✦</span>
+            {saluti.title[lang] ?? saluti.title.it}
+          </h2>
+          <div className="home__closing">
+            <div className="home__closing-text">{saluti.description[lang]}</div>
+            <AudioPlayer src={resolveAssetUrl(saluti.audio?.[lang])} />
+          </div>
+        </>
+      )}
     </section>
   )
 }
