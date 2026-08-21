@@ -35,7 +35,7 @@ function Home() {
         {introduzione && (
           <div className="home__intro">
             <div className="home__intro-text">{introduzione.description[lang]}</div>
-            <AudioPlayer src={resolveAssetUrl(introduzione.audio?.[lang])} />
+            <AudioPlayer src={resolveAssetUrl(introduzione.audio?.[lang])} labelKey="play_intro" />
           </div>
         )}
 
@@ -90,7 +90,7 @@ function Home() {
           </h2>
           <div className="home__closing">
             <div className="home__closing-text">{saluti.description[lang]}</div>
-            <AudioPlayer src={resolveAssetUrl(saluti.audio?.[lang])} />
+            <AudioPlayer src={resolveAssetUrl(saluti.audio?.[lang])} labelKey="play_farewell" />
           </div>
         </>
       )}

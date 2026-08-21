@@ -7,6 +7,8 @@ const resources = {
     translation: {
       choose_lang: 'Scegli la lingua',
       play_audio: 'Ascolta Guida Audio',
+      play_intro: 'Ascolta l\'Introduzione',
+      play_farewell: 'Ascolta Saluti e Ringraziamenti',
       audio_unsupported: 'Il tuo browser non supporta la riproduzione audio.',
       home_title: 'DOMENICO POLONIATO',
       home_subtitle: 'OMAGGIO NEL CENTENARIO DELLA NASCITA',
@@ -43,6 +45,8 @@ const resources = {
     translation: {
       choose_lang: 'Select Language',
       play_audio: 'Listen to Audio Guide',
+      play_intro: 'Listen to the Introduction',
+      play_farewell: 'Listen to Farewell & Thanks',
       audio_unsupported: 'Your browser does not support audio playback.',
       home_title: 'DOMENICO POLONIATO',
       home_subtitle: 'CENTENARY BIRTH HOMAGE',
@@ -79,6 +83,8 @@ const resources = {
     translation: {
       choose_lang: 'Choisir la langue',
       play_audio: 'Écouter l\'audioguide',
+      play_intro: 'Écouter l\'introduction',
+      play_farewell: 'Écouter les salutations et remerciements',
       audio_unsupported: 'Votre navigateur ne prend pas en charge la lecture audio.',
       home_title: 'DOMENICO POLONIATO',
       home_subtitle: 'HOMMAGE AU CENTENAIRE DE SA NAISSANCE',
@@ -115,6 +121,8 @@ const resources = {
     translation: {
       choose_lang: 'Seleccionar Idioma',
       play_audio: 'Escuchar Guía de Audio',
+      play_intro: 'Escuchar la Introducción',
+      play_farewell: 'Escuchar Saludos y Agradecimientos',
       audio_unsupported: 'Tu navegador no admite la reproducción de audio.',
       home_title: 'DOMENICO POLONIATO',
       home_subtitle: 'HOMENAJE EN EL CENTENARIO DE SU NACIMIENTO',
@@ -151,6 +159,8 @@ const resources = {
     translation: {
       choose_lang: 'Sprache wählen',
       play_audio: 'Audioguide anhören',
+      play_intro: 'Einführung anhören',
+      play_farewell: 'Grüße und Dank anhören',
       audio_unsupported: 'Ihr Browser unterstützt keine Audiowiedergabe.',
       home_title: 'DOMENICO POLONIATO',
       home_subtitle: 'HOMMAGE ZUM HUNDERTSTEN GEBURTSTAG',

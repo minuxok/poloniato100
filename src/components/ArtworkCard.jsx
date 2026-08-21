@@ -9,6 +9,8 @@ function ArtworkCard({ opera }) {
   const videoSrc = resolveAssetUrl(rawVideo)
   const imageSrc = resolveAssetUrl(opera.image)
   const audioSrc = resolveAssetUrl(opera.audio?.[lang])
+  const audioLabelKey =
+    opera.id === 0 ? 'play_intro' : opera.id === 11 ? 'play_farewell' : 'play_audio'
 
   return (
     <article className="artwork-card">
@@ -49,7 +51,7 @@ function ArtworkCard({ opera }) {
       </div>
 
       {/* Audio Guide Player */}
-      <AudioPlayer src={audioSrc} />
+      <AudioPlayer src={audioSrc} labelKey={audioLabelKey} />
 
       {/* Optional Video Guide */}
       {videoSrc && (
