@@ -1,14 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import AudioPlayer from './AudioPlayer'
-
-function resolveAssetUrl(path) {
-  if (!path) return ''
-  if (path.startsWith('http://') || path.startsWith('https://')) return path
-  const base = import.meta.env.BASE_URL || '/'
-  const cleanPath = path.startsWith('/') ? path.slice(1) : path
-  const cleanBase = base.endsWith('/') ? base : `${base}/`
-  return `${cleanBase}${cleanPath}`
-}
+import { resolveAssetUrl } from '../utils/audioAssets'
 
 function ArtworkCard({ opera }) {
   const { i18n } = useTranslation()

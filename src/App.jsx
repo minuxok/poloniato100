@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import LanguageModal from './components/LanguageModal'
@@ -7,6 +7,7 @@ import PWAInstallPrompt from './components/PWAInstallPrompt'
 import Home from './pages/Home'
 import ArtworkDetail from './pages/ArtworkDetail'
 import i18n from './i18n'
+import { prefetchAudioForLanguage } from './utils/prefetchAudio'
 import './App.css'
 
 const SUPPORTED_LANGS = ['it', 'en', 'fr', 'es', 'de']
@@ -30,6 +31,15 @@ function App() {
     localStorage.setItem('user_lang_selected', 'true')
     setShowLanguageModal(false)
   }
+
+  // Appena la lingua è nota, scarica in background tutti gli audio di quella
+  // lingua: quando il visitatore tocca un tag NFC l'audio è già in cache,
+  // niente attesa di rete davanti all'opera.
+  useEffect(() => {
+    if (!showLanguageModal) {
+      prefetchAudioForLanguage(i18n.resolvedLanguage)
+    }
+  }, [showLanguageModal])
 
   return (
     <>

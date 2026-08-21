@@ -13,7 +13,7 @@ function AudioPlayer({ src }) {
         </span>
         <p className="audio-player__label">{t('play_audio')}</p>
       </div>
-      <audio controls preload="none" src={src}>
+      <audio controls preload="auto" src={src}>
         {t('audio_unsupported')}
       </audio>
     </div>
