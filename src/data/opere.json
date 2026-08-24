@@ -57,7 +57,7 @@
       "es": "/assets/audio/opera-1-es.mp3",
       "de": "/assets/audio/opera-1-de.mp3"
     },
-    "video": "/assets/video/opera-1.mp4"
+    "video": null
   },
   {
     "id": 2,
@@ -87,7 +87,7 @@
       "es": "/assets/audio/opera-2-es.mp3",
       "de": "/assets/audio/opera-2-de.mp3"
     },
-    "video": "/assets/video/opera-2.mp4"
+    "video": null
   },
   {
     "id": 3,
@@ -117,7 +117,7 @@
       "es": "/assets/audio/opera-3-es.mp3",
       "de": "/assets/audio/opera-3-de.mp3"
     },
-    "video": "/assets/video/opera-3.mp4"
+    "video": null
   },
   {
     "id": 4,
@@ -147,7 +147,7 @@
       "es": "/assets/audio/opera-4-es.mp3",
       "de": "/assets/audio/opera-4-de.mp3"
     },
-    "video": "/assets/video/opera-4.mp4"
+    "video": null
   },
   {
     "id": 5,
@@ -177,7 +177,7 @@
       "es": "/assets/audio/opera-5-es.mp3",
       "de": "/assets/audio/opera-5-de.mp3"
     },
-    "video": "/assets/video/opera-5.mp4"
+    "video": null
   },
   {
     "id": 6,
@@ -207,7 +207,7 @@
       "es": "/assets/audio/opera-6-es.mp3",
       "de": "/assets/audio/opera-6-de.mp3"
     },
-    "video": "/assets/video/opera-6.mp4"
+    "video": null
   },
   {
     "id": 7,
@@ -237,7 +237,7 @@
       "es": "/assets/audio/opera-7-es.mp3",
       "de": "/assets/audio/opera-7-de.mp3"
     },
-    "video": "/assets/video/opera-7.mp4"
+    "video": null
   },
   {
     "id": 8,
@@ -267,7 +267,7 @@
       "es": "/assets/audio/opera-8-es.mp3",
       "de": "/assets/audio/opera-8-de.mp3"
     },
-    "video": "/assets/video/opera-8.mp4"
+    "video": null
   },
   {
     "id": 9,
@@ -297,7 +297,7 @@
       "es": "/assets/audio/opera-9-es.mp3",
       "de": "/assets/audio/opera-9-de.mp3"
     },
-    "video": "/assets/video/opera-9.mp4"
+    "video": null
   },
   {
     "id": 10,
@@ -327,7 +327,7 @@
       "es": "/assets/audio/opera-10-es.mp3",
       "de": "/assets/audio/opera-10-de.mp3"
     },
-    "video": "/assets/video/opera-10.mp4"
+    "video": null
   },
   {
     "id": 11,

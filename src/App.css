@@ -6,8 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: calc(12px + env(safe-area-inset-top, 0px)) 16px 12px;
+  gap: 8px;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) 12px 10px;
   background: var(--bg);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -17,17 +17,19 @@
 .app-header__brand {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   text-decoration: none;
   color: var(--terracotta);
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .app-header__title {
   font-family: var(--heading);
-  font-size: 0.95rem;
+  font-size: clamp(0.75rem, 3.2vw, 0.95rem);
   font-weight: 700;
   color: var(--terracotta);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
@@ -36,20 +38,21 @@
 
 .app-header__langs {
   display: flex;
-  gap: 4px;
+  gap: 3px;
+  flex-shrink: 0;
 }
 
 .app-header__lang-btn {
   border: 1px solid var(--border);
   background: var(--code-bg);
   color: var(--text-h);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  padding: 5px 9px;
-  min-width: 36px;
-  min-height: 36px;
-  border-radius: 8px;
+  letter-spacing: 0.03em;
+  padding: 4px 6px;
+  min-width: 30px;
+  min-height: 32px;
+  border-radius: 7px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
