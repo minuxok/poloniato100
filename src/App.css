@@ -276,15 +276,12 @@
 }
 
 .home__intro-text,
-.home__closing-text {
+.home__closing-text,
+.home__bio-text {
   font-size: 0.92rem;
   line-height: 1.6;
   color: var(--text);
   white-space: pre-line;
-}
-
-.home__bio p + p {
-  margin-top: 10px;
 }
 
 .home__credits {

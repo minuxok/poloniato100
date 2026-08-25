@@ -16,6 +16,7 @@ function Home() {
   const lang = i18n.resolvedLanguage || 'it'
   const introduzione = opere.find((o) => o.id === 0)
   const saluti = opere.find((o) => o.id === 11)
+  const biografia = opere.find((o) => o.id === 12)
   const opereInMostra = opere.filter((o) => o.id >= 1 && o.id <= 10)
 
   return (
@@ -39,12 +40,12 @@ function Home() {
           </div>
         )}
 
-        <div className="home__bio">
-          <p>{t('bio_paragraph1')}</p>
-          <p>{t('bio_paragraph2')}</p>
-          <p>{t('bio_paragraph3')}</p>
-          <p>{t('bio_paragraph4')}</p>
-        </div>
+        {biografia && (
+          <div className="home__bio">
+            <div className="home__bio-text">{biografia.description[lang]}</div>
+            <AudioPlayer src={resolveAssetUrl(biografia.audio?.[lang])} labelKey="play_bio" />
+          </div>
+        )}
 
         <div className="home__credits">
           <div><strong>{t('exhibition_curators')}:</strong> {t('volunteers_group')}</div>
