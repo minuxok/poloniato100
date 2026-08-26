@@ -26,6 +26,7 @@ function Home() {
         <div className="home__hero-header">
           <div className="home__hero-title-group">
             <h1>{t('home_title')}</h1>
+            <div className="home__hero-motto">{t('home_motto')}</div>
             <div className="home__hero-subtitle">{t('home_subtitle')}</div>
           </div>
           <span className="star-symbol" aria-hidden="true">✦</span>
