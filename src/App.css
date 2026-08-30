@@ -649,32 +649,32 @@
   min-height: 42px;
 }
 
-.nfcbar__pulse {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--terracotta);
-  box-shadow: 0 0 0 0 rgba(122, 67, 42, 0.6);
+.nfcbar__icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--terracotta);
+}
+
+.nfcbar__msg[data-state='idle'] .nfcbar__icon,
+.nfcbar__msg[data-state='scanning'] .nfcbar__icon {
   animation: nfc-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 @keyframes nfc-pulse {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(122, 67, 42, 0.7);
-  }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 9px rgba(122, 67, 42, 0);
-  }
+  0%,
   100% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(122, 67, 42, 0);
+    opacity: 0.5;
+    transform: scale(0.92);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .nfcbar__pulse,
+  .nfcbar__icon,
   .language-modal,
   .language-modal__panel {
     animation: none;
