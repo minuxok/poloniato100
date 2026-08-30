@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import StarSymbol from './StarSymbol'
 
 const LANGUAGES = [
   { code: 'it', iso: 'IT', label: 'Italiano' },
@@ -20,7 +21,7 @@ function Header() {
   return (
     <header className="app-header">
       <Link to="/" className="app-header__brand">
-        <span className="star-symbol" aria-hidden="true" style={{ fontSize: '1.1rem' }}>✦</span>
+        <StarSymbol size="1.1rem" />
         <span className="app-header__title">{t('home_title')}</span>
       </Link>
       <nav className="app-header__langs" aria-label={t('choose_lang')}>

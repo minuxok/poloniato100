@@ -5,6 +5,7 @@ import LanguageModal from './components/LanguageModal'
 import NfcListener from './components/NfcListener'
 import PWAInstallPrompt from './components/PWAInstallPrompt'
 import Home from './pages/Home'
+import Welcome from './pages/Welcome'
 import ArtworkDetail from './pages/ArtworkDetail'
 import i18n from './i18n'
 import { prefetchAudioForLanguage } from './utils/prefetchAudio'
@@ -47,6 +48,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/benvenuto" element={<Welcome />} />
           <Route path="/opera/:id" element={<ArtworkDetail />} />
         </Routes>
       </main>

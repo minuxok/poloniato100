@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { Trans } from 'react-i18next'
 import opere from '../data/opere.json'
+import NfcIcon from './NfcIcon'
 
 // Estrae l'id opera da un URL scritto sul tag: .../opera/12, ?id=12,
 // oppure .../#/opera/12 (formato reale con HashRouter).
@@ -37,7 +38,6 @@ function extractOperaId(raw) {
  */
 function NfcListener() {
   const navigate = useNavigate()
-  const { t } = useTranslation()
   const [status, setStatus] = useState('idle')
   const navigateRef = useRef(navigate)
   navigateRef.current = navigate
@@ -82,20 +82,25 @@ function NfcListener() {
     return () => document.removeEventListener('pointerdown', arm)
   }, [start])
 
-  const message =
+  const messageKey =
     status === 'idle' || status === 'scanning'
-      ? t('nfc_scanning')
+      ? 'nfc_scanning'
       : status === 'denied'
-        ? t('nfc_denied')
+        ? 'nfc_denied'
         : status === 'error'
-          ? t('nfc_error')
-          : t('nfc_unsupported')
+          ? 'nfc_error'
+          : 'nfc_unsupported'
 
   return (
     <div className="nfcbar" role="status" aria-live="polite">
       <p className="nfcbar__msg" data-state={status}>
-        <span className="nfcbar__pulse" aria-hidden="true" />
-        {message}
+        <NfcIcon className="nfcbar__icon" />
+        <span className="nfcbar__text">
+          <Trans
+            i18nKey={messageKey}
+            components={{ nfc: <NfcIcon className="nfcbar__icon nfcbar__icon--inline" /> }}
+          />
+        </span>
       </p>
     </div>
   )
