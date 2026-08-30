@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import LanguageModal from './components/LanguageModal'
 import NfcListener from './components/NfcListener'
@@ -9,6 +9,7 @@ import Welcome from './pages/Welcome'
 import ArtworkDetail from './pages/ArtworkDetail'
 import i18n from './i18n'
 import { prefetchAudioForLanguage } from './utils/prefetchAudio'
+import { trackPageView } from './utils/analytics'
 import './App.css'
 
 const SUPPORTED_LANGS = ['it', 'en', 'fr', 'es', 'de']
@@ -26,6 +27,13 @@ function initialShowLanguageModal() {
 
 function App() {
   const [showLanguageModal, setShowLanguageModal] = useState(initialShowLanguageModal)
+  const location = useLocation()
+
+  // Tracciamento GoatCounter per il routing (compreso HashRouter)
+  useEffect(() => {
+    const cleanPath = location.pathname + (location.search || '')
+    trackPageView(cleanPath || '/')
+  }, [location])
 
   const handleSelectLanguage = (lang) => {
     i18n.changeLanguage(lang)
