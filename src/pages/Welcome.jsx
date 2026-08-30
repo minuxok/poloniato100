@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
 import AudioPlayer from '../components/AudioPlayer'
+import Credits from '../components/Credits'
 
 function resolveAssetUrl(path) {
   if (!path) return ''
@@ -45,10 +46,7 @@ function Welcome() {
           </div>
         )}
 
-        <div className="home__credits">
-          <div><strong>{t('exhibition_curators')}:</strong> {t('volunteers_group')}</div>
-          <div><strong>{t('collaboration')}:</strong> {t('tce_dev')}</div>
-        </div>
+        <Credits />
       </div>
 
       <Link to="/" className="back-link">

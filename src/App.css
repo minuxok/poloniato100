@@ -300,11 +300,61 @@
   border-top: 1px dashed var(--border);
   font-size: 0.78rem;
   color: var(--text-muted);
-  text-transform: uppercase;
   letter-spacing: 0.04em;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 12px;
+}
+
+.home__credits-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+}
+
+.home__credits-row > div {
+  font-size: 0.62rem;
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+
+.home__credits-logo {
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.home__credits-logo--blanser {
+  height: 28px;
+  width: 28px;
+}
+
+.home__credits-logo--tce {
+  height: 28px;
+  width: auto;
+}
+
+.home__patronage {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.home__patronage-label {
+  text-transform: uppercase;
+}
+
+.home__patronage-logos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.home__patronage-logos img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
 }
 
 .home__section-title {
