@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
 import AudioPlayer from '../components/AudioPlayer'
 import Credits from '../components/Credits'
+import StarSymbol from '../components/StarSymbol'
 
 function resolveAssetUrl(path) {
   if (!path) return ''
@@ -27,7 +28,7 @@ function Welcome() {
             <div className="home__hero-motto">{t('home_motto')}</div>
             <div className="home__hero-subtitle">{t('home_subtitle')}</div>
           </div>
-          <span className="star-symbol" aria-hidden="true">✦</span>
+          <StarSymbol />
         </div>
 
         <div className="divider-bar"></div>
@@ -42,7 +43,7 @@ function Welcome() {
         {biografia && (
           <div className="home__bio">
             <h2 className="home__section-title">
-              <span className="star-symbol" aria-hidden="true">✦</span>
+              <StarSymbol />
               {t('bio_title')}
             </h2>
             <div className="home__bio-text">{biografia.description[lang]}</div>

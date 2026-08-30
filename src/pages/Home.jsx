@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
 import AudioPlayer from '../components/AudioPlayer'
 import Credits from '../components/Credits'
+import StarSymbol from '../components/StarSymbol'
 
 function resolveAssetUrl(path) {
   if (!path) return ''
@@ -30,7 +31,7 @@ function Home() {
             <div className="home__hero-motto">{t('home_motto')}</div>
             <div className="home__hero-subtitle">{t('home_subtitle')}</div>
           </div>
-          <span className="star-symbol" aria-hidden="true">✦</span>
+          <StarSymbol />
         </div>
 
         <div className="divider-bar"></div>
@@ -45,7 +46,7 @@ function Home() {
         {biografia && (
           <div className="home__bio">
             <h2 className="home__section-title">
-              <span className="star-symbol" aria-hidden="true">✦</span>
+              <StarSymbol />
               {t('bio_title')}
             </h2>
             <div className="home__bio-text">{biografia.description[lang]}</div>
@@ -60,7 +61,7 @@ function Home() {
 
       {/* Artworks List (Opere in Mostra) */}
       <h2 className="home__section-title">
-        <span className="star-symbol" aria-hidden="true">✦</span>
+        <StarSymbol />
         {t('opere_in_mostra')}
       </h2>
 
@@ -89,7 +90,7 @@ function Home() {
         <>
           <div className="divider-bar divider-bar--center"></div>
           <h2 className="home__section-title">
-            <span className="star-symbol" aria-hidden="true">✦</span>
+            <StarSymbol />
             {saluti.title[lang] ?? saluti.title.it}
           </h2>
           <div className="home__closing">
