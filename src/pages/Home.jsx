@@ -44,6 +44,10 @@ function Home() {
 
         {biografia && (
           <div className="home__bio">
+            <h2 className="home__section-title">
+              <span className="star-symbol" aria-hidden="true">✦</span>
+              {t('bio_title')}
+            </h2>
             <div className="home__bio-text">{biografia.description[lang]}</div>
             <AudioPlayer src={resolveAssetUrl(biografia.audio?.[lang])} labelKey="play_bio" />
           </div>

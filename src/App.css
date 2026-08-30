@@ -366,6 +366,10 @@
   gap: 8px;
 }
 
+.home__bio .home__section-title {
+  margin-top: 0;
+}
+
 .home__list {
   list-style: none;
   padding: 0;
