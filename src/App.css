@@ -660,6 +660,17 @@
   color: var(--terracotta);
 }
 
+.nfcbar__text {
+  text-align: center;
+}
+
+.nfcbar__icon--inline {
+  width: 1.05em;
+  height: 1.05em;
+  vertical-align: -0.22em;
+  margin: 0 2px;
+}
+
 .nfcbar__msg[data-state='idle'] .nfcbar__icon,
 .nfcbar__msg[data-state='scanning'] .nfcbar__icon {
   animation: nfc-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
