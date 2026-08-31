@@ -32,7 +32,10 @@ function ArtworkCard({ opera }) {
 
       {/* Header & Meta Info */}
       <header className="artwork-card__header">
-        <h2 className="artwork-card__title">{opera.title[lang]}</h2>
+        <h2 className="artwork-card__title">
+          {opera.title[lang]}
+          {opera.year && <span className="artwork-card__year">, {opera.year}</span>}
+        </h2>
         <div className="artwork-card__meta-group">
           <span className="artwork-card__meta">
             {opera.artist}

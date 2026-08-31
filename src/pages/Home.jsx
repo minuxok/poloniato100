@@ -72,7 +72,10 @@ function Home() {
             <li key={opera.id} className="home__list-item">
               <Link to={`/opera/${opera.id}`} className="home__list-link">
                 <div className="home__list-content">
-                  <span className="home__list-title">{title}</span>
+                  <span className="home__list-title">
+                    {title}
+                    {opera.year && <span className="home__list-year">, {opera.year}</span>}
+                  </span>
                   {opera.details && (
                     <span className="home__list-details">{opera.details}</span>
                   )}

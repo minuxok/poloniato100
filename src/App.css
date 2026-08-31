@@ -416,6 +416,12 @@
   color: var(--text-h);
 }
 
+.home__list-year,
+.artwork-card__year {
+  font-weight: 400;
+  opacity: 0.9;
+}
+
 .home__list-details {
   font-size: 0.8rem;
   color: var(--text-muted);
