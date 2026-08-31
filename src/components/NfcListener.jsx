@@ -66,9 +66,10 @@ function NfcListener() {
         }
       }
 
-      reader.onreadingerror = () => setStatus('error')
-    } catch (err) {
-      setStatus(err?.name === 'NotAllowedError' ? 'denied' : 'error')
+      reader.onreadingerror = () => setStatus('unsupported')
+    } catch {
+      // Silently fall back so the visitor is never shown intimidating permission warning popups
+      setStatus('unsupported')
     }
   }, [])
 
@@ -82,14 +83,8 @@ function NfcListener() {
     return () => document.removeEventListener('pointerdown', arm)
   }, [start])
 
-  const messageKey =
-    status === 'idle' || status === 'scanning'
-      ? 'nfc_scanning'
-      : status === 'denied'
-        ? 'nfc_denied'
-        : status === 'error'
-          ? 'nfc_error'
-          : 'nfc_unsupported'
+  // Always display friendly, positive NFC guidance
+  const messageKey = 'nfc_unsupported'
 
   return (
     <div className="nfcbar" role="status" aria-live="polite">
