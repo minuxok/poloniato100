@@ -244,6 +244,18 @@
   margin-bottom: 8px;
 }
 
+.star-symbol {
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.home__hero-star {
+  flex-shrink: 0;
+  margin-top: 2px;
+  filter: drop-shadow(0 2px 4px rgba(122, 67, 42, 0.15));
+}
+
 .home__hero-title-group h1 {
   font-size: 1.55rem;
   color: var(--terracotta);

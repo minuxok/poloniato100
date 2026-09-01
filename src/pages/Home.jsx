@@ -31,7 +31,7 @@ function Home() {
             <div className="home__hero-motto">{t('home_motto')}</div>
             <div className="home__hero-subtitle">{t('home_subtitle')}</div>
           </div>
-          <StarSymbol />
+          <StarSymbol size="3.2rem" className="home__hero-star" />
         </div>
 
         <div className="divider-bar"></div>

@@ -10,7 +10,7 @@ function resolveAssetUrl(path) {
  * accanto ai titoli e nel brand dell'header. Sostituisce il vecchio
  * carattere "✦".
  */
-function StarSymbol({ size = '1.4rem', className = '' }) {
+function StarSymbol({ size = '1.5rem', className = '' }) {
   return (
     <img
       src={resolveAssetUrl('assets/loghi/simbolo_poloniato.png')}
