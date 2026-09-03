@@ -8,7 +8,7 @@ import { resolveAssetUrl } from '../utils/audioAssets'
 function NfcIcon({ className = '' }) {
   return (
     <img
-      src={resolveAssetUrl('assets/loghi/logo_NFC.png')}
+      src={resolveAssetUrl('assets/loghi/logo_NFC.svg')}
       alt=""
       aria-hidden="true"
       className={className}

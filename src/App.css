@@ -672,8 +672,8 @@
 }
 
 .nfcbar__icon {
-  width: 40px;
-  height: 40px;
+  width: 54px;
+  height: 54px;
   flex-shrink: 0;
   object-fit: contain;
 }
@@ -683,9 +683,9 @@
 }
 
 .nfcbar__icon--inline {
-  width: 1.05em;
-  height: 1.05em;
-  vertical-align: -0.22em;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.4em;
   margin: 0 2px;
 }
 
@@ -697,12 +697,12 @@
 @keyframes nfc-pulse {
   0%,
   100% {
-    opacity: 0.5;
-    transform: scale(0.92);
+    opacity: 0.72;
+    transform: scale(0.94);
   }
   60% {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1.04);
   }
 }
 
