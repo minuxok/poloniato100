@@ -15,20 +15,22 @@ function ArtworkCard({ opera }) {
   return (
     <article className="artwork-card">
       {/* Visual Confirmation Image */}
-      <div className="artwork-card__media-container">
-        <img
-          className="artwork-card__image"
-          src={imageSrc}
-          alt={opera.title[lang]}
-          onError={(e) => {
-            // Fallback placeholder image with artwork title if image file doesn't exist yet
-            e.target.onerror = null
-            e.target.src = `https://placehold.co/800x600/7a432a/ffffff?text=${encodeURIComponent(
-              opera.title[lang]
-            )}`
-          }}
-        />
-      </div>
+      {opera.image && (
+        <div className="artwork-card__media-container">
+          <img
+            className="artwork-card__image"
+            src={imageSrc}
+            alt={opera.title[lang]}
+            onError={(e) => {
+              // Fallback placeholder image with artwork title if image file doesn't exist yet
+              e.target.onerror = null
+              e.target.src = `https://placehold.co/800x600/7a432a/ffffff?text=${encodeURIComponent(
+                opera.title[lang]
+              )}`
+            }}
+          />
+        </div>
+      )}
 
       {/* Header & Meta Info */}
       <header className="artwork-card__header">
@@ -37,9 +39,11 @@ function ArtworkCard({ opera }) {
           {opera.year && <span className="artwork-card__year">, {opera.year}</span>}
         </h2>
         <div className="artwork-card__meta-group">
-          <span className="artwork-card__meta">
-            {opera.artist}
-          </span>
+          {opera.artist && (
+            <span className="artwork-card__meta">
+              {opera.artist}
+            </span>
+          )}
           {opera.details && (
             <span className="artwork-card__meta">
               {opera.details}

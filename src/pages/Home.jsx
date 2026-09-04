@@ -19,7 +19,32 @@ function Home() {
   const introduzione = opere.find((o) => o.id === 0)
   const saluti = opere.find((o) => o.id === 11)
   const biografia = opere.find((o) => o.id === 12)
-  const opereInMostra = opere.filter((o) => o.id >= 1 && o.id <= 10)
+  const opereChiesa = opere.filter((o) => o.id >= 1 && o.id <= 9)
+  const opereMuseo = opere.filter((o) => o.id === 10)
+  const grandiCeramiche = opere.find((o) => o.id === 13)
+  const opereFornace = opere.filter((o) => o.id >= 14)
+
+  const renderOpera = (opera) => {
+    const title = opera.title[lang] ?? opera.title.it
+    return (
+      <li key={opera.id} className="home__list-item">
+        <Link to={`/opera/${opera.id}`} className="home__list-link">
+          <div className="home__list-content">
+            <span className="home__list-title">
+              {title}
+              {opera.year && <span className="home__list-year">, {opera.year}</span>}
+            </span>
+            {opera.details && (
+              <span className="home__list-details">{opera.details}</span>
+            )}
+          </div>
+          <span className="home__list-arrow" aria-hidden="true">
+            &rarr;
+          </span>
+        </Link>
+      </li>
+    )
+  }
 
   return (
     <section className="home">
@@ -59,35 +84,41 @@ function Home() {
 
       <div className="divider-bar divider-bar--center"></div>
 
-      {/* Artworks List (Opere in Mostra) */}
+      {/* Artworks List — church */}
       <h2 className="home__section-title">
         <StarSymbol />
         {t('opere_in_mostra')}
       </h2>
 
       <ul className="home__list">
-        {opereInMostra.map((opera) => {
-          const title = opera.title[lang] ?? opera.title.it
-          return (
-            <li key={opera.id} className="home__list-item">
-              <Link to={`/opera/${opera.id}`} className="home__list-link">
-                <div className="home__list-content">
-                  <span className="home__list-title">
-                    {title}
-                    {opera.year && <span className="home__list-year">, {opera.year}</span>}
-                  </span>
-                  {opera.details && (
-                    <span className="home__list-details">{opera.details}</span>
-                  )}
-                </div>
-                <span className="home__list-arrow" aria-hidden="true">
-                  &rarr;
-                </span>
-              </Link>
-            </li>
-          )
-        })}
+        {opereChiesa.map(renderOpera)}
       </ul>
+
+      {opereMuseo.length > 0 && (
+        <>
+          <div className="divider-bar divider-bar--center"></div>
+          <h2 className="home__section-title">
+            <StarSymbol />
+            {t('opere_esposte_museo')}
+          </h2>
+          <ul className="home__list">
+            {opereMuseo.map(renderOpera)}
+          </ul>
+        </>
+      )}
+
+      <div className="divider-bar divider-bar--center"></div>
+      <h2 className="home__section-title">
+        <StarSymbol />
+        {t('opere_esposte_fornace')}
+      </h2>
+
+      {(grandiCeramiche || opereFornace.length > 0) && (
+        <ul className="home__list">
+          {grandiCeramiche && renderOpera(grandiCeramiche)}
+          {opereFornace.map(renderOpera)}
+        </ul>
+      )}
 
       {saluti && (
         <>
