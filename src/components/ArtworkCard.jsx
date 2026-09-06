@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import AudioPlayer from './AudioPlayer'
-import { resolveAssetUrl } from '../utils/audioAssets'
+import { resolveAssetUrl, resolveDetails } from '../utils/audioAssets'
 
 function ArtworkCard({ opera }) {
   const { i18n } = useTranslation()
@@ -9,6 +9,7 @@ function ArtworkCard({ opera }) {
   const videoSrc = resolveAssetUrl(rawVideo)
   const imageSrc = resolveAssetUrl(opera.image)
   const audioSrc = resolveAssetUrl(opera.audio?.[lang])
+  const details = resolveDetails(opera.details, lang)
   const audioLabelKey =
     opera.id === 0 ? 'play_intro' : opera.id === 11 ? 'play_farewell' : 'play_audio'
 
@@ -44,9 +45,9 @@ function ArtworkCard({ opera }) {
               {opera.artist}
             </span>
           )}
-          {opera.details && (
+          {details && (
             <span className="artwork-card__meta">
-              {opera.details}
+              {details}
             </span>
           )}
         </div>

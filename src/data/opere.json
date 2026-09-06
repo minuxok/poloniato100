@@ -418,5 +418,221 @@
       "de": "/assets/audio/opera-13-de.mp3"
     },
     "video": null
+  },
+  {
+    "id": 14,
+    "slug": "madonna-con-bambino-fornace",
+    "title": {
+      "it": "Madonna con Bambino",
+      "en": "Madonna and Child",
+      "fr": "Vierge à l'Enfant",
+      "es": "Virgen con el Niño",
+      "de": "Madonna mit Kind"
+    },
+    "artist": "Domenico Poloniato",
+    "details": {
+      "it": "MADONNA CON BAMBINO, terracotta smaltata, 70x49 cm.\nMADONNA CON BAMBINO, terracotta smaltata, diam. 47 cm.",
+      "en": "MADONNA AND CHILD, glazed terracotta, 70x49 cm.\nMADONNA AND CHILD, glazed terracotta, diam. 47 cm.",
+      "fr": "VIERGE À L'ENFANT, terre cuite émaillée, 70x49 cm.\nVIERGE À L'ENFANT, terre cuite émaillée, diam. 47 cm.",
+      "es": "VIRGEN CON EL NIÑO, terracota esmaltada, 70x49 cm.\nVIRGEN CON EL NIÑO, terracota esmaltada, diám. 47 cm.",
+      "de": "MADONNA MIT KIND, glasierte Terrakotta, 70x49 cm.\nMADONNA MIT KIND, glasierte Terrakotta, Durchm. 47 cm."
+    },
+    "year": "",
+    "description": {
+      "it": "Le due Madonne con Bambino qui esposte – un bassorilievo su pannello e un altorilievo a tondo - mostrano l'abilità tecnica di Domenico nel modellare i panneggi e infondere espressività ai volti.\nRispetto alle opere che potete ammirare in Chiesa, si aggiunge, qui, un dettaglio speciale: la terra è smaltata di bianco. Poloniato, infatti, pur prediligendo il colore naturale della terra, riconosceva ai toni del bianco e del nero la qualità di rendere evidente i volumi modellati, di non coprire le qualità scultoree del manufatto, di distinguere i pezzi unici dalle produzioni seriali.",
+      "en": "The two Madonna and Child works displayed here — a bas-relief panel and a high-relief tondo — reveal Domenico's technical skill in modelling drapery and giving expressiveness to the faces.\nCompared to the works you can admire in the church, there is a special detail here: the clay is glazed in white. Poloniato, although he generally preferred the natural colour of the clay, recognised that tones of white and black had the quality of bringing out the modelled volumes, of not concealing the sculptural qualities of the piece, and of distinguishing one-of-a-kind works from serial production.",
+      "fr": "Les deux Vierges à l'Enfant présentées ici — un bas-relief sur panneau et un haut-relief en médaillon — révèlent l'habileté technique de Domenico dans le modelé des drapés et l'expressivité donnée aux visages.\nPar rapport aux œuvres que vous pouvez admirer dans l'église, un détail particulier s'ajoute ici : la terre est émaillée de blanc. Poloniato, bien qu'il préférât généralement la couleur naturelle de la terre, reconnaissait aux tons de blanc et de noir la capacité de mettre en valeur les volumes modelés, de ne pas masquer les qualités sculpturales de l'œuvre, et de distinguer les pièces uniques des productions en série.",
+      "es": "Las dos Vírgenes con el Niño aquí expuestas —un bajorrelieve sobre panel y un altorrelieve circular— muestran la habilidad técnica de Domenico para modelar los pliegues e infundir expresividad a los rostros.\nRespecto a las obras que se pueden admirar en la iglesia, aquí se añade un detalle especial: la arcilla está esmaltada en blanco. Poloniato, aunque prefería generalmente el color natural de la arcilla, reconocía a los tonos de blanco y negro la cualidad de poner en evidencia los volúmenes modelados, de no ocultar las cualidades escultóricas de la pieza y de distinguir las piezas únicas de las producciones en serie.",
+      "de": "Die beiden hier ausgestellten Madonnen mit Kind – ein Basrelief auf einer Platte und ein Hochrelief als Rundbild – zeigen Domenicos technisches Können bei der Modellierung der Gewandfalten und beim Verleihen von Ausdruckskraft an die Gesichter.\nIm Vergleich zu den Werken, die Sie in der Kirche bewundern können, kommt hier ein besonderes Detail hinzu: Der Ton ist weiß glasiert. Poloniato bevorzugte zwar meist die natürliche Farbe des Tons, erkannte aber den Farbtönen Weiß und Schwarz die Eigenschaft zu, die modellierten Volumen deutlich hervortreten zu lassen, die skulpturalen Qualitäten des Werks nicht zu verdecken und die Einzelstücke von der Serienproduktion zu unterscheiden."
+    },
+    "image": "/assets/images/madonna_bambino_stringa.png",
+    "audio": {
+      "it": "/assets/audio/opera-14-it.mp3",
+      "en": "/assets/audio/opera-14-en.mp3",
+      "fr": "/assets/audio/opera-14-fr.mp3",
+      "es": "/assets/audio/opera-14-es.mp3",
+      "de": "/assets/audio/opera-14-de.mp3"
+    },
+    "video": null
+  },
+  {
+    "id": 15,
+    "slug": "soldato-a-cavallo",
+    "title": {
+      "it": "Soldato a Cavallo",
+      "en": "Soldier on Horseback",
+      "fr": "Soldat à Cheval",
+      "es": "Soldado a Caballo",
+      "de": "Reitender Soldat"
+    },
+    "artist": "Domenico Poloniato",
+    "details": {
+      "it": "SOLDATO A CAVALLO, terracotta smaltata bicroma, h. 59 cm.\nSOLDATO A CAVALLO, terracotta smaltata bicroma, h. 55 cm.",
+      "en": "SOLDIER ON HORSEBACK, two-tone glazed terracotta, h. 59 cm.\nSOLDIER ON HORSEBACK, two-tone glazed terracotta, h. 55 cm.",
+      "fr": "SOLDAT À CHEVAL, terre cuite émaillée bicolore, h. 59 cm.\nSOLDAT À CHEVAL, terre cuite émaillée bicolore, h. 55 cm.",
+      "es": "SOLDADO A CABALLO, terracota esmaltada bícroma, h. 59 cm.\nSOLDADO A CABALLO, terracota esmaltada bícroma, h. 55 cm.",
+      "de": "REITENDER SOLDAT, zweifarbig glasierte Terrakotta, H. 59 cm.\nREITENDER SOLDAT, zweifarbig glasierte Terrakotta, H. 55 cm."
+    },
+    "year": "",
+    "description": {
+      "it": "Il soldato a cavallo è il primissimo soggetto interpretato da Poloniato per i suoi celebri arcicuchi. Possiamo considerare questa iconografia come la vera capostipite del fischietto d'arte a Nove.\nNello specifico, le due figure qui esposte indossano la divisa dell'arma dei carabinieri, che potete riconoscere dal piumaggio del cappello e dalla forma delle spalline sulla giacca.\nNella cultura popolare, il carabiniere è da sempre bersaglio di ironia: questo perché è la forza armata più presente sul territorio e a stretto contatto con la vita quotidiana della gente comune.\nFischiare dentro questo soldato a cavallo allude quindi a chi, con un po' di furbizia, sa di aver beffato l'autorità.",
+      "en": "The soldier on horseback is the very first subject Poloniato interpreted for his celebrated arcicuchi. We can consider this iconography to be the true forerunner of the art whistle in Nove.\nSpecifically, the two figures on display here wear the uniform of the carabinieri, which you can recognise from the plumed hat and the shape of the epaulettes on the jacket.\nIn popular culture, the carabiniere has always been a target of good-natured irony, precisely because it is the police force most present on the territory and in closest contact with the everyday life of ordinary people.\nBlowing into this mounted soldier therefore alludes to someone who, with a bit of cunning, knows he has outwitted authority.",
+      "fr": "Le soldat à cheval est le tout premier sujet interprété par Poloniato pour ses célèbres arcicuchi. On peut considérer cette iconographie comme le véritable ancêtre du sifflet d'art à Nove.\nPlus précisément, les deux figures ici exposées portent l'uniforme des carabiniers, reconnaissable au plumet du chapeau et à la forme des épaulettes de la veste.\nDans la culture populaire, le carabinier a toujours été la cible de plaisanteries bienveillantes, précisément parce qu'il s'agit de la force armée la plus présente sur le territoire et la plus proche du quotidien des gens ordinaires.\nSouffler dans ce soldat à cheval évoque donc celui qui, avec un peu de malice, sait avoir berné l'autorité.",
+      "es": "El soldado a caballo es el primerísimo sujeto interpretado por Poloniato para sus célebres arcicuchi. Podemos considerar esta iconografía como el verdadero precursor del silbato de arte en Nove.\nEn concreto, las dos figuras aquí expuestas llevan el uniforme del cuerpo de carabinieri, que se reconoce por el plumaje del sombrero y por la forma de las hombreras de la chaqueta.\nEn la cultura popular, el carabiniere ha sido siempre blanco de la ironía, precisamente porque es la fuerza armada más presente en el territorio y en contacto más estrecho con la vida cotidiana de la gente común.\nSilbar dentro de este soldado a caballo alude, por tanto, a quien, con algo de picardía, sabe que ha burlado a la autoridad.",
+      "de": "Der Reiter zu Pferd ist das allererste Motiv, das Poloniato für seine berühmten Arcicuchi interpretierte. Man kann diese Ikonographie als den eigentlichen Stammvater der Kunstpfeife von Nove betrachten.\nGenauer gesagt tragen die beiden hier ausgestellten Figuren die Uniform der Carabinieri, erkennbar am Federbusch des Hutes und an der Form der Schulterklappen der Jacke.\nIn der Volkskultur ist der Carabiniere seit jeher Zielscheibe wohlwollender Ironie – eben weil er die im Gebiet am stärksten präsente und dem Alltag der einfachen Leute am nächsten stehende bewaffnete Ordnungsmacht ist.\nIn diesen berittenen Soldaten zu pfeifen, spielt daher auf jenen an, der mit etwas Schläue weiß, die Obrigkeit überlistet zu haben."
+    },
+    "image": "/assets/images/SOLDATO_A_CAVALLO_stringa.png",
+    "audio": {
+      "it": "/assets/audio/opera-15-it.mp3",
+      "en": "/assets/audio/opera-15-en.mp3",
+      "fr": "/assets/audio/opera-15-fr.mp3",
+      "es": "/assets/audio/opera-15-es.mp3",
+      "de": "/assets/audio/opera-15-de.mp3"
+    },
+    "video": null
+  },
+  {
+    "id": 16,
+    "slug": "soldato-napoleonico-stante",
+    "title": {
+      "it": "Soldato Napoleonico Stante",
+      "en": "Standing Napoleonic Soldier",
+      "fr": "Soldat Napoléonien Debout",
+      "es": "Soldado Napoleónico de Pie",
+      "de": "Stehender Napoleonischer Soldat"
+    },
+    "artist": "Domenico Poloniato",
+    "details": {
+      "it": "SOLDATO NAPOLEONICO STANTE, terracotta smaltata, h. 95 cm.\nSOLDATO NAPOLEONICO STANTE, terracotta smaltata, h. 58 cm.\nSOLDATO NAPOLEONICO STANTE, semirefrattario, h. 64 cm.",
+      "en": "STANDING NAPOLEONIC SOLDIER, glazed terracotta, h. 95 cm.\nSTANDING NAPOLEONIC SOLDIER, glazed terracotta, h. 58 cm.\nSTANDING NAPOLEONIC SOLDIER, semi-refractory clay, h. 64 cm.",
+      "fr": "SOLDAT NAPOLÉONIEN DEBOUT, terre cuite émaillée, h. 95 cm.\nSOLDAT NAPOLÉONIEN DEBOUT, terre cuite émaillée, h. 58 cm.\nSOLDAT NAPOLÉONIEN DEBOUT, argile semi-réfractaire, h. 64 cm.",
+      "es": "SOLDADO NAPOLEÓNICO DE PIE, terracota esmaltada, h. 95 cm.\nSOLDADO NAPOLEÓNICO DE PIE, terracota esmaltada, h. 58 cm.\nSOLDADO NAPOLEÓNICO DE PIE, arcilla semirrefractaria, h. 64 cm.",
+      "de": "STEHENDER NAPOLEONISCHER SOLDAT, glasierte Terrakotta, H. 95 cm.\nSTEHENDER NAPOLEONISCHER SOLDAT, glasierte Terrakotta, H. 58 cm.\nSTEHENDER NAPOLEONISCHER SOLDAT, halbfeuerfester Ton, H. 64 cm."
+    },
+    "year": "",
+    "description": {
+      "it": "Accanto al cavaliere, un altro soggetto molto diffuso è quello del soldato stante, o in piedi.\nTra le creazioni più amate di Poloniato spiccano i soldati napoleonici, spesso di dimensioni monumentali.\nA prima vista, questa scelta può sembrare lontana dalle tradizioni locali. In realtà, è legata alla storia del nostro territorio. I conflitti di fine Settecento avevano segnato profondamente il Nord Italia. Le guerre napoleoniche rimasero per decenni impresse nei cuori della popolazione locale e il tema del soldato d'Oltralpe era interpretato in chiave goliardica. Rimaneva ancora aperta una ferita: il trattato di Campoformio del 1797, vissuto in Veneto come un vero tradimento, aveva posto fine alla millenaria storia della Repubblica di Venezia.",
+      "en": "Alongside the horseman, another very widespread subject is that of the standing soldier.\nAmong Poloniato's most beloved creations, the Napoleonic soldiers stand out, often of monumental size.\nAt first sight, this choice may seem far removed from local tradition. In reality, it is tied to the history of our territory. The conflicts of the late eighteenth century had left a deep mark on Northern Italy. The Napoleonic wars remained impressed for decades in the hearts of the local population, and the theme of the soldier from beyond the Alps was interpreted in a mocking, good-humoured key. A wound still remained open: the Treaty of Campoformio of 1797, experienced in the Veneto as a true betrayal, had put an end to the thousand-year history of the Republic of Venice.",
+      "fr": "Aux côtés du cavalier, un autre sujet très répandu est celui du soldat debout.\nParmi les créations les plus aimées de Poloniato figurent les soldats napoléoniens, souvent de dimensions monumentales.\nÀ première vue, ce choix peut sembler éloigné des traditions locales. En réalité, il est lié à l'histoire de notre territoire. Les conflits de la fin du XVIIIe siècle avaient profondément marqué le nord de l'Italie. Les guerres napoléoniennes restèrent gravées pendant des décennies dans le cœur de la population locale, et le thème du soldat d'outre-monts était interprété sur un ton goliardique. Une blessure restait encore ouverte : le traité de Campoformio de 1797, vécu en Vénétie comme une véritable trahison, avait mis fin à la millénaire histoire de la République de Venise.",
+      "es": "Junto al jinete, otro sujeto muy difundido es el del soldado de pie.\nEntre las creaciones más queridas de Poloniato destacan los soldados napoleónicos, a menudo de dimensiones monumentales.\nA primera vista, esta elección puede parecer alejada de las tradiciones locales. En realidad, está ligada a la historia de nuestro territorio. Los conflictos de finales del siglo XVIII habían marcado profundamente el norte de Italia. Las guerras napoleónicas quedaron grabadas durante décadas en el corazón de la población local, y el tema del soldado de allende los Alpes se interpretaba en clave jocosa. Quedaba aún abierta una herida: el tratado de Campoformio de 1797, vivido en el Véneto como una verdadera traición, había puesto fin a la milenaria historia de la República de Venecia.",
+      "de": "Neben dem Reiter ist ein weiteres sehr verbreitetes Motiv das des stehenden Soldaten.\nUnter Poloniatos beliebtesten Schöpfungen stechen die napoleonischen Soldaten hervor, oft von monumentalen Ausmaßen.\nAuf den ersten Blick mag diese Wahl den lokalen Traditionen fern erscheinen. In Wirklichkeit ist sie mit der Geschichte unseres Gebiets verbunden. Die Konflikte des ausgehenden 18. Jahrhunderts hatten Norditalien tief geprägt. Die napoleonischen Kriege blieben jahrzehntelang im Herzen der örtlichen Bevölkerung eingeprägt, und das Motiv des Soldaten von jenseits der Alpen wurde auf scherzhafte, volkstümliche Weise gedeutet. Eine Wunde blieb dabei noch offen: Der Vertrag von Campoformio von 1797, im Veneto als wahrer Verrat empfunden, hatte der tausendjährigen Geschichte der Republik Venedig ein Ende gesetzt."
+    },
+    "image": "/assets/images/SOLDATO_NAPOLEONICO_STANTE_stringa.png",
+    "audio": {
+      "it": "/assets/audio/opera-16-it.mp3",
+      "en": "/assets/audio/opera-16-en.mp3",
+      "fr": "/assets/audio/opera-16-fr.mp3",
+      "es": "/assets/audio/opera-16-es.mp3",
+      "de": "/assets/audio/opera-16-de.mp3"
+    },
+    "video": null
+  },
+  {
+    "id": 17,
+    "slug": "vecchio-bevitore",
+    "title": {
+      "it": "Vecchio Bevitore",
+      "en": "Old Drinker",
+      "fr": "Vieux Buveur",
+      "es": "Viejo Bebedor",
+      "de": "Alter Trinker"
+    },
+    "artist": "Domenico Poloniato",
+    "details": {
+      "it": "VECCHIO SULLA BOTTE, terracotta smaltata, h. 47 cm.\nBEVITORE SULLA BOTTE, terracotta smaltata, h. 97 cm.\nBEVITORE STANCO, terracotta smaltata, h. 76 cm.",
+      "en": "OLD MAN ON THE BARREL, glazed terracotta, h. 47 cm.\nDRINKER ON THE BARREL, glazed terracotta, h. 97 cm.\nWEARY DRINKER, glazed terracotta, h. 76 cm.",
+      "fr": "VIEIL HOMME SUR LE TONNEAU, terre cuite émaillée, h. 47 cm.\nBUVEUR SUR LE TONNEAU, terre cuite émaillée, h. 97 cm.\nBUVEUR FATIGUÉ, terre cuite émaillée, h. 76 cm.",
+      "es": "VIEJO SOBRE EL TONEL, terracota esmaltada, h. 47 cm.\nBEBEDOR SOBRE EL TONEL, terracota esmaltada, h. 97 cm.\nBEBEDOR CANSADO, terracota esmaltada, h. 76 cm.",
+      "de": "ALTER MANN AUF DEM FASS, glasierte Terrakotta, H. 47 cm.\nTRINKER AUF DEM FASS, glasierte Terrakotta, H. 97 cm.\nMÜDER TRINKER, glasierte Terrakotta, H. 76 cm."
+    },
+    "year": "",
+    "description": {
+      "it": "Domenico Poloniato studiò a lungo le genti che abitavano la sua terra, ritraendole con straordinario realismo. Uno dei soggetti più celebri è il bevitore, spesso anziano, colto nella quiete del sonno. Si tratta di istantanee rubate alle scene di paese, colte tra osterie e taverne di amici, ma che assumono una valenza quasi magica. I contadini stanchi si trasformano in sognatori che cavalcano botti sorridenti e piene di frutta. Il vino diventa una pozione capace di elevarli, per un momento, al rango di fieri cavalieri.",
+      "en": "Domenico Poloniato studied at length the people who inhabited his land, portraying them with extraordinary realism. One of his most celebrated subjects is the drinker, often elderly, caught in the quiet of sleep. These are snapshots stolen from village life, observed in inns and among friends in taverns, yet they take on an almost magical quality. Weary farmers are transformed into dreamers riding smiling barrels overflowing with fruit. Wine becomes a potion able to raise them, for a moment, to the rank of proud knights.",
+      "fr": "Domenico Poloniato a longuement étudié les gens qui habitaient sa terre, les portraitisant avec un réalisme extraordinaire. L'un de ses sujets les plus célèbres est le buveur, souvent âgé, saisi dans la quiétude du sommeil. Ce sont des instantanés dérobés aux scènes de village, saisis dans les auberges et les tavernes entre amis, mais qui prennent une valeur presque magique. Les paysans fatigués se transforment en rêveurs chevauchant des tonneaux souriants et débordant de fruits. Le vin devient une potion capable de les élever, l'espace d'un instant, au rang de fiers chevaliers.",
+      "es": "Domenico Poloniato estudió largamente a las gentes que habitaban su tierra, retratándolas con extraordinario realismo. Uno de sus temas más célebres es el bebedor, a menudo anciano, sorprendido en la quietud del sueño. Se trata de instantáneas robadas a las escenas de pueblo, captadas entre tabernas y encuentros de amigos, pero que adquieren un valor casi mágico. Los campesinos cansados se transforman en soñadores que cabalgan sobre toneles sonrientes y repletos de fruta. El vino se convierte en una poción capaz de elevarlos, por un instante, al rango de orgullosos caballeros.",
+      "de": "Domenico Poloniato studierte lange die Menschen, die seine Heimat bewohnten, und porträtierte sie mit außergewöhnlichem Realismus. Eines seiner berühmtesten Motive ist der Trinker, oft ein alter Mann, in der Ruhe des Schlafs eingefangen. Es sind Momentaufnahmen, dem Dorfleben entwendet, beobachtet in Wirtshäusern und unter Freunden in Tavernen, die jedoch eine fast magische Bedeutung annehmen. Müde Bauern verwandeln sich in Träumer, die auf lächelnden, fruchtübervollen Fässern reiten. Der Wein wird zu einem Zaubertrank, der sie für einen Moment in den Rang stolzer Ritter erhebt."
+    },
+    "image": "/assets/images/vecchio_bevitore_stringa.png",
+    "audio": {
+      "it": "/assets/audio/opera-17-it.mp3",
+      "en": "/assets/audio/opera-17-en.mp3",
+      "fr": "/assets/audio/opera-17-fr.mp3",
+      "es": "/assets/audio/opera-17-es.mp3",
+      "de": "/assets/audio/opera-17-de.mp3"
+    },
+    "video": null
+  },
+  {
+    "id": 18,
+    "slug": "il-riposo-del-vagabondo",
+    "title": {
+      "it": "Il Riposo del Vagabondo",
+      "en": "The Vagabond's Rest",
+      "fr": "Le Repos du Vagabond",
+      "es": "El Descanso del Vagabundo",
+      "de": "Die Rast des Landstreichers"
+    },
+    "artist": "Domenico Poloniato",
+    "details": {
+      "it": "IL RIPOSO DEL VAGABONDO, terracotta smaltata, h. 33 cm.",
+      "en": "THE VAGABOND'S REST, glazed terracotta, h. 33 cm.",
+      "fr": "LE REPOS DU VAGABOND, terre cuite émaillée, h. 33 cm.",
+      "es": "EL DESCANSO DEL VAGABUNDO, terracota esmaltada, h. 33 cm.",
+      "de": "DIE RAST DES LANDSTREICHERS, glasierte Terrakotta, H. 33 cm."
+    },
+    "year": "",
+    "description": {
+      "it": "Le opere dedicate all'ambiente sociale e naturale della Brenta appaiono come una preziosa restituzione del nostro passato. Un tempo umile e modesto, ma degno di essere raccontato secondo una rinata memoria collettiva.\nLa cura del dettaglio, l'espressività viva, la familiarità con i soggetti rappresentato, fanno di questi lavori la testimonianza autentica di un mondo rurale dal sapore ormai lontano. Un passato stanco, come un vecchio a riposo, che custodisce infinite storie da tramandare.",
+      "en": "The works dedicated to the social and natural setting of the Brenta river appear as a precious restitution of our past — a humble, modest time, yet worthy of being told through a renewed collective memory.\nThe attention to detail, the lively expressiveness, the familiarity with the subjects portrayed make these works an authentic testimony of a rural world whose flavour now feels distant. A weary past, like an old man at rest, guarding countless stories still to be handed down.",
+      "fr": "Les œuvres consacrées au cadre social et naturel du Brenta apparaissent comme une précieuse restitution de notre passé — un temps humble et modeste, mais digne d'être raconté selon une mémoire collective retrouvée.\nLe soin du détail, l'expressivité vivante, la familiarité avec les sujets représentés font de ces œuvres le témoignage authentique d'un monde rural au parfum désormais lointain. Un passé fatigué, comme un vieil homme au repos, qui garde d'innombrables histoires à transmettre.",
+      "es": "Las obras dedicadas al entorno social y natural del Brenta aparecen como una preciosa restitución de nuestro pasado: un tiempo humilde y modesto, pero digno de ser contado según una memoria colectiva renacida.\nEl cuidado del detalle, la expresividad viva, la familiaridad con los sujetos representados hacen de estos trabajos el testimonio auténtico de un mundo rural de sabor ya lejano. Un pasado cansado, como un anciano en reposo, que custodia infinitas historias por transmitir.",
+      "de": "Die Werke, die dem sozialen und natürlichen Umfeld des Brenta gewidmet sind, erscheinen als kostbare Wiedergabe unserer Vergangenheit — einer bescheidenen, einfachen Zeit, die es dennoch verdient, im Zeichen einer neu erwachten kollektiven Erinnerung erzählt zu werden.\nDie Sorgfalt im Detail, die lebendige Ausdruckskraft, die Vertrautheit mit den dargestellten Sujets machen diese Arbeiten zum authentischen Zeugnis einer ländlichen Welt von inzwischen fernem Geschmack. Eine müde Vergangenheit, wie ein ruhender alter Mann, der unzählige weiterzugebende Geschichten bewahrt."
+    },
+    "image": "/assets/images/vagabondo_stringa.png",
+    "audio": {
+      "it": "/assets/audio/opera-18-it.mp3",
+      "en": "/assets/audio/opera-18-en.mp3",
+      "fr": "/assets/audio/opera-18-fr.mp3",
+      "es": "/assets/audio/opera-18-es.mp3",
+      "de": "/assets/audio/opera-18-de.mp3"
+    },
+    "video": null
+  },
+  {
+    "id": 19,
+    "slug": "pagliaccio",
+    "title": {
+      "it": "Pagliaccio",
+      "en": "Clown",
+      "fr": "Clown",
+      "es": "Payaso",
+      "de": "Clown"
+    },
+    "artist": "Domenico Poloniato",
+    "details": {
+      "it": "PAGLIACCIO, terracotta smaltata, h. 65 cm.",
+      "en": "CLOWN, glazed terracotta, h. 65 cm.",
+      "fr": "CLOWN, terre cuite émaillée, h. 65 cm.",
+      "es": "PAYASO, terracota esmaltada, h. 65 cm.",
+      "de": "CLOWN, glasierte Terrakotta, H. 65 cm."
+    },
+    "year": "",
+    "description": {
+      "it": "Sul finire dell'Ottocento, il pagliaccio diventa una vera e propria icona della vivacità e, al tempo stesso, della malinconia della cultura fin de siècle. Con le sue espressioni enigmatiche, il sorriso beffardo e lo sguardo triste, la figura del clown entra con forza nell'immaginario collettivo.\nUn soggetto, quindi, popolare e grottesco, capace di condensare tutte le emozioni umane che Domenico Poloniato ama raffigurare.\nSculture come quella che vedete qui esposta diventano terreno di gioco prediletto. Inoltre, rappresentano un naturale passaggio di consegne al figlio Diego che dei pagliacci fischianti e dei teatri dei burattini ha fatto due delle serie più rappresentative della sua produzione ceramica.",
+      "en": "Towards the end of the nineteenth century, the clown became a true icon of the vivacity and, at the same time, the melancholy of fin-de-siècle culture. With its enigmatic expressions, mocking smile and sorrowful gaze, the figure of the clown forcefully entered the collective imagination.\nA popular and grotesque subject, then, able to condense all the human emotions that Domenico Poloniato loved to portray.\nSculptures like the one you see on display here became a favourite playground for him. They also represent a natural passing of the torch to his son Diego, who made whistling clowns and puppet theatres two of the most representative series of his own ceramic production.",
+      "fr": "Vers la fin du XIXe siècle, le clown devient une véritable icône de la vivacité et, en même temps, de la mélancolie de la culture fin de siècle. Avec ses expressions énigmatiques, son sourire moqueur et son regard triste, la figure du clown s'impose avec force dans l'imaginaire collectif.\nUn sujet à la fois populaire et grotesque, donc, capable de condenser toutes les émotions humaines que Domenico Poloniato aimait représenter.\nDes sculptures comme celle que vous voyez ici exposée deviennent un terrain de jeu de prédilection. Elles représentent en outre une passation de témoin naturelle à son fils Diego, qui a fait des clowns sifflants et des théâtres de marionnettes deux des séries les plus représentatives de sa propre production céramique.",
+      "es": "Hacia finales del siglo XIX, el payaso se convierte en un verdadero icono de la vivacidad y, al mismo tiempo, de la melancolía de la cultura fin de siècle. Con sus expresiones enigmáticas, su sonrisa burlona y su mirada triste, la figura del clown se impone con fuerza en el imaginario colectivo.\nUn sujeto, pues, popular y grotesco, capaz de condensar todas las emociones humanas que a Domenico Poloniato le gustaba representar.\nEsculturas como la que se expone aquí se convierten en un terreno de juego predilecto. Además, representan un natural relevo generacional hacia su hijo Diego, que hizo de los payasos silbantes y de los teatros de marionetas dos de las series más representativas de su propia producción cerámica.",
+      "de": "Gegen Ende des 19. Jahrhunderts wurde der Clown zu einer wahren Ikone der Lebendigkeit und zugleich der Melancholie der Fin-de-Siècle-Kultur. Mit seinen rätselhaften Mienen, dem spöttischen Lächeln und dem traurigen Blick drängt sich die Gestalt des Clowns mit Nachdruck in die kollektive Vorstellungswelt.\nEin volkstümliches und groteskes Motiv also, das alle menschlichen Emotionen zu bündeln vermag, die Domenico Poloniato gerne darstellte.\nSkulpturen wie die hier ausgestellte wurden zu seinem bevorzugten Spielfeld. Zudem stellen sie eine natürliche Staffelübergabe an seinen Sohn Diego dar, der aus pfeifenden Clowns und Puppentheatern zwei der repräsentativsten Serien seiner eigenen keramischen Produktion machte."
+    },
+    "image": "/assets/images/pagliaccio_stringa.png",
+    "audio": {
+      "it": "/assets/audio/opera-19-it.mp3",
+      "en": "/assets/audio/opera-19-en.mp3",
+      "fr": "/assets/audio/opera-19-fr.mp3",
+      "es": "/assets/audio/opera-19-es.mp3",
+      "de": "/assets/audio/opera-19-de.mp3"
+    },
+    "video": null
   }
 ]
