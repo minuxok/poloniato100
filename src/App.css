@@ -438,6 +438,7 @@
   font-size: 0.8rem;
   color: var(--text-muted);
   margin-top: 2px;
+  white-space: pre-line;
 }
 
 .home__list-arrow {
@@ -530,6 +531,7 @@
   font-weight: 600;
   color: var(--text-h);
   background: var(--code-bg);
+  white-space: pre-line;
   padding: 5px 12px;
   border-radius: 20px;
   border: 1px solid var(--border);
@@ -545,6 +547,7 @@
   padding: 16px;
   border-radius: 14px;
   border: 1px solid var(--border);
+  white-space: pre-line;
 }
 
 /* Styled Audio Player Bar */

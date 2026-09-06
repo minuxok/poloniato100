@@ -12,3 +12,12 @@ export function resolveAssetUrl(path) {
 export function getAudioUrlsForLang(lang) {
   return opere.map((o) => resolveAssetUrl(o.audio?.[lang])).filter(Boolean)
 }
+
+// "details" è per lo più una stringa unica non tradotta (materiale/misure),
+// ma per i gruppi della Fornace Stringa (più pezzi per gruppo) è tradotta
+// per lingua: questa funzione gestisce entrambi i formati.
+export function resolveDetails(details, lang) {
+  if (!details) return ''
+  if (typeof details === 'string') return details
+  return details[lang] ?? details.it ?? ''
+}

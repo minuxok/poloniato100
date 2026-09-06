@@ -27,6 +27,28 @@ function extractOperaId(raw) {
   }
 }
 
+// Il tag unico della Fornace Stringa non punta a una singola opera (non è
+// possibile avvicinare il telefono a ogni pezzo in vetrina): punta invece a
+// .../?section=fornace o .../#/?section=fornace, e la Home scrolla da sola
+// fino all'elenco dei gruppi.
+function extractSection(raw) {
+  try {
+    const url = new URL(raw, window.location.origin)
+    const direct = url.searchParams.get('section')
+    if (direct) return direct
+    if (url.hash) {
+      const hashQuery = url.hash.slice(1).split('?')[1]
+      if (hashQuery) {
+        const fromHash = new URLSearchParams(hashQuery).get('section')
+        if (fromHash) return fromHash
+      }
+    }
+    return null
+  } catch {
+    return null
+  }
+}
+
 /**
  * Barra persistente in fondo allo schermo.
  * Android: la Web NFC API richiede un gesto utente per attivarsi — invece
@@ -60,6 +82,13 @@ function NfcListener() {
           const opera = id ? opere.find((o) => o.id === Number(id)) : undefined
           if (opera) {
             navigateRef.current(`/opera/${opera.id}`)
+            if (navigator.vibrate) navigator.vibrate(20)
+            return
+          }
+
+          const section = extractSection(raw)
+          if (section === 'fornace') {
+            navigateRef.current('/?section=fornace')
             if (navigator.vibrate) navigator.vibrate(20)
             return
           }

@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
 import AudioPlayer from '../components/AudioPlayer'
 import Credits from '../components/Credits'
 import StarSymbol from '../components/StarSymbol'
+import { resolveDetails } from '../utils/audioAssets'
 
 function resolveAssetUrl(path) {
   if (!path) return ''
@@ -16,6 +18,17 @@ function resolveAssetUrl(path) {
 function Home() {
   const { t, i18n } = useTranslation()
   const lang = i18n.resolvedLanguage || 'it'
+  const [searchParams] = useSearchParams()
+  const fornaceRef = useRef(null)
+
+  // Il tag NFC unico della Fornace Stringa punta a "/?section=fornace":
+  // qui basta scrollare fino all'elenco, il visitatore sceglie da solo
+  // quale gruppo aprire.
+  useEffect(() => {
+    if (searchParams.get('section') === 'fornace' && fornaceRef.current) {
+      fornaceRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [searchParams])
   const introduzione = opere.find((o) => o.id === 0)
   const saluti = opere.find((o) => o.id === 11)
   const biografia = opere.find((o) => o.id === 12)
@@ -26,6 +39,7 @@ function Home() {
 
   const renderOpera = (opera) => {
     const title = opera.title[lang] ?? opera.title.it
+    const details = resolveDetails(opera.details, lang)
     return (
       <li key={opera.id} className="home__list-item">
         <Link to={`/opera/${opera.id}`} className="home__list-link">
@@ -34,8 +48,8 @@ function Home() {
               {title}
               {opera.year && <span className="home__list-year">, {opera.year}</span>}
             </span>
-            {opera.details && (
-              <span className="home__list-details">{opera.details}</span>
+            {details && (
+              <span className="home__list-details">{details}</span>
             )}
           </div>
           <span className="home__list-arrow" aria-hidden="true">
@@ -107,7 +121,7 @@ function Home() {
         </>
       )}
 
-      <div className="divider-bar divider-bar--center"></div>
+      <div ref={fornaceRef} className="divider-bar divider-bar--center"></div>
       <h2 className="home__section-title">
         <StarSymbol />
         {t('opere_esposte_fornace')}
