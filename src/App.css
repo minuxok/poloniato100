@@ -331,6 +331,17 @@
   line-height: 1.35;
 }
 
+.home__credits-row--link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home__credits-tce-desc {
+  text-transform: none;
+  display: inline-block;
+  margin-top: 2px;
+}
+
 .home__credits-logo {
   flex-shrink: 0;
   object-fit: contain;

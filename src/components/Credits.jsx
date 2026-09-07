@@ -41,16 +41,23 @@ function Credits() {
         </div>
       </div>
 
-      <div className="home__credits-row">
+      <a
+        className="home__credits-row home__credits-row--link"
+        href="https://tceitalia.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="home__credits-logo home__credits-logo--tce"
           src={resolveAssetUrl('assets/loghi/Logo_TCE.png')}
           alt="TCE"
         />
         <div>
-          <strong>{t('collaboration')}:</strong> {t('tce_dev')}
+          <strong>{t('collaboration')}</strong>
+          <br />
+          <span className="home__credits-tce-desc">{t('tce_dev')}</span>
         </div>
-      </div>
+      </a>
     </div>
   )
 }
