@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import AudioPlayer from './AudioPlayer'
 import { resolveAssetUrl, resolveDetails } from '../utils/audioAssets'
 
-function ArtworkCard({ opera }) {
+function ArtworkCard({ opera, mediaRef }) {
   const { i18n } = useTranslation()
   const lang = opera.title[i18n.resolvedLanguage] ? i18n.resolvedLanguage : 'it'
   const rawVideo = typeof opera.video === 'string' ? opera.video : opera.video?.[lang]
@@ -17,7 +17,7 @@ function ArtworkCard({ opera }) {
     <article className="artwork-card">
       {/* Visual Confirmation Image */}
       {opera.image && (
-        <div className="artwork-card__media-container">
+        <div className="artwork-card__media-container" ref={mediaRef}>
           <img
             className="artwork-card__image"
             src={imageSrc}
