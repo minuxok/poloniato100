@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import opere from '../data/opere.json'
 import ArtworkCard from '../components/ArtworkCard'
@@ -7,6 +7,7 @@ import ArtworkCard from '../components/ArtworkCard'
 function ArtworkDetail() {
   const { id } = useParams()
   const { t } = useTranslation()
+  const location = useLocation()
   const opera = opere.find((o) => o.id === Number(id))
   const mediaRef = useRef(null)
 
@@ -15,6 +16,14 @@ function ArtworkDetail() {
   useEffect(() => {
     mediaRef.current?.scrollIntoView({ behavior: 'auto', block: 'center' })
   }, [id])
+
+  // Il tag NFC d'ingresso è stato scritto con ".../#/opera/0", ma l'introduzione
+  // completa (testo + BIO + credits) vive nella pagina "/benvenuto". Poiché il
+  // tag non è più riscrivibile, chi apre "/opera/0" viene rimandato lì.
+  // "/opera/0" non è linkato da nessuna parte nell'app (l'elenco parte da id 1).
+  if (Number(id) === 0) {
+    return <Navigate to={`/benvenuto${location.search}`} replace />
+  }
 
   if (!opera) {
     return (
