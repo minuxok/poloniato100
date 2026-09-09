@@ -32,10 +32,14 @@ function Home() {
   const introduzione = opere.find((o) => o.id === 0)
   const saluti = opere.find((o) => o.id === 11)
   const biografia = opere.find((o) => o.id === 12)
-  const opereChiesa = opere.filter((o) => o.id >= 1 && o.id <= 9)
+  // L'opera 20 (presepio ai piedi dell'altare) è stata aggiunta dopo il
+  // deployment dei tag NFC 1-10: mantiene un id fuori sequenza per non
+  // rinumerare le opere già taggate, ma è collocata in chiesa tra la 4 e la 5
+  // (l'ordine è dato dalla posizione nell'array, non dall'id).
+  const opereChiesa = opere.filter((o) => (o.id >= 1 && o.id <= 9) || o.id === 20)
   const opereMuseo = opere.filter((o) => o.id === 10)
   const grandiCeramiche = opere.find((o) => o.id === 13)
-  const opereFornace = opere.filter((o) => o.id >= 14)
+  const opereFornace = opere.filter((o) => o.id >= 14 && o.id !== 20)
 
   const renderOpera = (opera) => {
     const title = opera.title[lang] ?? opera.title.it

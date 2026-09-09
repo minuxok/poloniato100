@@ -38,7 +38,9 @@ function ArtworkDetail() {
   // sono raggiunte tramite lo scroll automatico verso "?section=fornace":
   // tornare a "/" secco farebbe perdere il contesto e il visitatore
   // dovrebbe riscorrere tutta la pagina per ritrovare la sezione.
-  const backTo = opera.id >= 13 ? '/?section=fornace' : '/'
+  // L'opera 20 è esposta in chiesa nonostante l'id alto (vedi opere.json):
+  // deve tornare a "/" secco, non alla sezione Fornace.
+  const backTo = opera.id >= 13 && opera.id !== 20 ? '/?section=fornace' : '/'
 
   return (
     <section>
