@@ -150,6 +150,36 @@
     "video": null
   },
   {
+    "id": 20,
+    "slug": "presepio-altare",
+    "title": {
+      "it": "Presepio",
+      "en": "Nativity Scene",
+      "fr": "Crèche",
+      "es": "Pesebre",
+      "de": "Krippe"
+    },
+    "artist": "Domenico Poloniato",
+    "details": "gruppo scultoreo in semi-refrattario, 40x55x30cm",
+    "year": "2007 c.ca",
+    "description": {
+      "it": "Come dicevamo, Domenico ha realizzato molte opere raffiguranti presepi. Quello ai piedi dell'altare si distingue particolarmente. Ammira il presepio e nota le sue grandi dimensioni. Come vedi, l'opera si distingue per il colore scuro della terra. Inoltre, la povertà degli ambienti dove è nato Gesù è accentuata dal tetto della capanna, che sembra stia crollando. Nonostante ciò, la vivacità degli animali e gli oggetti di uso comune dei pastori rendono la scena familiare e dolce. Devi sapere che Domenico amava molto questo lavoro: infatti lo aveva realizzato appositamente per la moglie Maria.",
+      "en": "As we were saying, Domenico created many works depicting nativity scenes. The one at the foot of the altar stands out in particular. Admire the nativity scene and note its large size. As you can see, the work is distinguished by the dark colour of the clay. Moreover, the poverty of the setting where Jesus was born is heightened by the roof of the hut, which seems about to collapse. Despite this, the liveliness of the animals and the everyday objects of the shepherds make the scene familiar and gentle. You should know that Domenico was very fond of this work: in fact, he had made it especially for his wife Maria.",
+      "fr": "Comme nous le disions, Domenico a réalisé de nombreuses œuvres représentant des crèches. Celle au pied de l'autel se distingue tout particulièrement. Admirez la crèche et remarquez ses grandes dimensions. Comme vous pouvez le voir, l'œuvre se distingue par la couleur sombre de la terre. De plus, la pauvreté des lieux où Jésus est né est accentuée par le toit de la cabane, qui semble sur le point de s'effondrer. Malgré cela, la vivacité des animaux et les objets d'usage courant des bergers rendent la scène familière et douce. Sachez que Domenico aimait beaucoup ce travail : il l'avait en effet réalisé spécialement pour son épouse Maria.",
+      "es": "Como decíamos, Domenico realizó muchas obras que representan belenes. El que está a los pies del altar destaca de manera particular. Admira el belén y fíjate en sus grandes dimensiones. Como puedes ver, la obra se distingue por el color oscuro de la arcilla. Además, la pobreza de los ambientes donde nació Jesús se acentúa con el techo de la cabaña, que parece estar a punto de derrumbarse. A pesar de ello, la vivacidad de los animales y los objetos de uso común de los pastores hacen que la escena resulte familiar y entrañable. Debes saber que Domenico amaba mucho este trabajo: de hecho, lo había realizado expresamente para su esposa María.",
+      "de": "Wie bereits erwähnt, schuf Domenico viele Werke, die Krippen darstellen. Jene am Fuße des Altars sticht besonders hervor. Bewundern Sie die Krippe und beachten Sie ihre großen Ausmaße. Wie Sie sehen, zeichnet sich das Werk durch die dunkle Farbe des Tons aus. Zudem wird die Ärmlichkeit der Umgebung, in der Jesus geboren wurde, durch das Dach der Hütte betont, das einzustürzen droht. Trotzdem machen die Lebendigkeit der Tiere und die Alltagsgegenstände der Hirten die Szene vertraut und anrührend. Sie sollten wissen, dass Domenico diese Arbeit sehr liebte: Er hatte sie nämlich eigens für seine Frau Maria angefertigt."
+    },
+    "image": "/assets/images/5_presepe_2007_.png",
+    "audio": {
+      "it": "/assets/audio/opera-20-it.mp3",
+      "en": "/assets/audio/opera-20-en.mp3",
+      "fr": "/assets/audio/opera-20-fr.mp3",
+      "es": "/assets/audio/opera-20-es.mp3",
+      "de": "/assets/audio/opera-20-de.mp3"
+    },
+    "video": null
+  },
+  {
     "id": 5,
     "slug": "presepio-2010",
     "title": {
